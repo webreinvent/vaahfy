@@ -27,6 +27,8 @@ $table-striped-row-even-hover-background-color: $scheme-main-ter !default;
 
 $table-colors: $colors !default;
 
+@import "../../customize/variables";
+
 .table {
   @extend %block;
 

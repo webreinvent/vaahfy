@@ -18,6 +18,8 @@ $menu-label-font-size: 0.75em !default;
 $menu-label-letter-spacing: 0.1em !default;
 $menu-label-spacing: 1em !default;
 
+@import "../../customize/variables";
+
 .menu {
   font-size: $size-normal;
 

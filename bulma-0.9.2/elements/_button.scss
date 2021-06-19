@@ -45,6 +45,8 @@ $button-static-border-color: $border !default;
 
 $button-colors: $colors !default;
 
+@import "../../customize/variables";
+
 // The button sizes use mixins so they can be used at different breakpoints
 @mixin button-small {
   &:not(.is-rounded) {

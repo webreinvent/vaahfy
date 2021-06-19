@@ -5,6 +5,8 @@ $help-size: $size-small !default;
 
 $label-colors: $form-colors !default;
 
+@import "../../customize/variables";
+
 .label {
   color: $label-color;
   display: block;

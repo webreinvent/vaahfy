@@ -2,6 +2,8 @@
 
 $level-item-spacing: $block-spacing / 2 !default;
 
+@import "../../customize/variables";
+
 .level {
   @extend %block;
 

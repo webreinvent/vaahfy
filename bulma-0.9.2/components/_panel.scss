@@ -30,6 +30,8 @@ $panel-block-active-icon-color: $link !default;
 $panel-icon-color: $text-light !default;
 $panel-colors: $colors !default;
 
+@import "../../customize/variables";
+
 .panel {
   border-radius: $panel-radius;
   box-shadow: $panel-shadow;

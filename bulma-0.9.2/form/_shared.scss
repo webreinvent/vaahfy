@@ -30,6 +30,8 @@ $input-icon-active-color: $text !default;
 
 $input-radius: $radius !default;
 
+@import "../../customize/variables";
+
 @mixin input {
   @extend %control;
 

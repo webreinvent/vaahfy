@@ -1,5 +1,7 @@
 $select-colors: $form-colors !default;
 
+@import "../../customize/variables";
+
 .select {
   display: inline-block;
   max-width: 100%;

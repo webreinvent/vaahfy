@@ -32,6 +32,8 @@ $modal-card-body-padding: 20px !default;
 
 $modal-breakpoint: $tablet !default;
 
+@import "../../customize/variables";
+
 .modal {
   @extend %overlay;
 

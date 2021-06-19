@@ -21,6 +21,8 @@ $message-body-pre-code-background-color: transparent !default;
 $message-header-body-border-width: 0 !default;
 $message-colors: $colors !default;
 
+@import "../../customize/variables";
+
 .message {
   @extend %block;
 

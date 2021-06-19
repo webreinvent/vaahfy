@@ -4,6 +4,8 @@ $icon-dimensions-medium: 2rem !default;
 $icon-dimensions-large: 3rem !default;
 $icon-text-spacing: 0.25em !default;
 
+@import "../../customize/variables";
+
 .icon {
   align-items: center;
   display: inline-flex;

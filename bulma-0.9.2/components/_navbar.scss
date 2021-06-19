@@ -50,6 +50,8 @@ $navbar-breakpoint: $desktop !default;
 
 $navbar-colors: $colors !default;
 
+@import "../../customize/variables";
+
 @mixin navbar-fixed {
   left: 0;
   position: fixed;

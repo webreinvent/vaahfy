@@ -13,6 +13,8 @@ $file-name-max-width: 16em !default;
 
 $file-colors: $form-colors !default;
 
+@import "../../customize/variables";
+
 .file {
   @extend %unselectable;
 

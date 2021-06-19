@@ -9,6 +9,8 @@ $notification-padding-rtl: 1.25rem 1.5rem 1.25rem 2.5rem !default;
 
 $notification-colors: $colors !default;
 
+@import "../../customize/variables";
+
 .notification {
   @extend %block;
 

@@ -3,6 +3,8 @@
 $container-offset: 2 * $gap !default;
 $container-max-width: $fullhd !default;
 
+@import "../../customize/variables";
+
 .container {
   flex-grow: 1;
   margin: 0 auto;

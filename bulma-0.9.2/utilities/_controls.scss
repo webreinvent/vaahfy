@@ -11,6 +11,9 @@ $control-line-height: 1.5 !default;
 $control-padding-vertical: calc(0.5em - #{$control-border-width}) !default;
 $control-padding-horizontal: calc(0.75em - #{$control-border-width}) !default;
 
+
+@import "../../customize/variables";
+
 @mixin control {
   -moz-appearance: none;
   -webkit-appearance: none;

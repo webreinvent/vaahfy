@@ -8,6 +8,8 @@ $progress-indeterminate-duration: 1.5s !default;
 
 $progress-colors: $colors !default;
 
+@import "../../customize/variables";
+
 .progress {
   @extend %block;
 
