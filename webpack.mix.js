@@ -4,6 +4,7 @@ const fs_extra = require('fs-extra');
 
 mix.setPublicPath('./css');
 mix.sass('./build.scss', './css');
+mix.sass('./style.scss', './css');
 
 
 mix.webpackConfig({

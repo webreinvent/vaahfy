@@ -1,17 +1,5 @@
 @charset "UTF-8";
 
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
 .is-noscroll {
   position: fixed;
   overflow-y: hidden;
@@ -309,84 +297,6 @@
 /*! bulma.io v0.9.3 | MIT License | github.com/jgthms/bulma */
 
 /* Bulma Utilities */
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
 
 .button,
 .input,
@@ -808,30 +718,6 @@ th:not([align]) {
   text-align: inherit;
 }
 
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
 html {
   background-color: white;
   font-size: 16px;
@@ -880,7 +766,7 @@ body {
 }
 
 a {
-  color: #7957d5;
+  color: #485fc7;
   cursor: pointer;
   text-decoration: none;
 }
@@ -991,30 +877,6 @@ table th {
 
 /* Bulma Elements */
 
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
 .box {
   background-color: white;
   border-radius: 6px;
@@ -1026,54 +888,12 @@ table th {
 
 a.box:hover,
 a.box:focus {
-  box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0 0 1px #7957d5;
+  box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0 0 1px #485fc7;
 }
 
 a.box:active {
-  box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.2), 0 0 0 1px #7957d5;
+  box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.2), 0 0 0 1px #485fc7;
 }
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
 
 .button {
   background-color: white;
@@ -1125,13 +945,13 @@ a.box:active {
 
 .button:focus,
 .button.is-focused {
-  border-color: #7957d5;
+  border-color: #485fc7;
   color: #363636;
 }
 
 .button:focus:not(:active),
 .button.is-focused:not(:active) {
-  box-shadow: 0 0 0 0.125em rgba(121, 87, 213, 0.25);
+  box-shadow: 0 0 0 0.125em rgba(72, 95, 199, 0.25);
 }
 
 .button:active,
@@ -1171,13 +991,13 @@ fieldset[disabled] .button.is-text {
 .button.is-ghost {
   background: none;
   border-color: transparent;
-  color: #7957d5;
+  color: #485fc7;
   text-decoration: none;
 }
 
 .button.is-ghost:hover,
 .button.is-ghost.is-hovered {
-  color: #7957d5;
+  color: #485fc7;
   text-decoration: underline;
 }
 
@@ -1674,14 +1494,14 @@ fieldset[disabled] .button.is-dark.is-inverted.is-outlined {
 }
 
 .button.is-primary {
-  background-color: #7957d5;
+  background-color: #00d1b2;
   border-color: transparent;
   color: #fff;
 }
 
 .button.is-primary:hover,
 .button.is-primary.is-hovered {
-  background-color: #714dd2;
+  background-color: #00c4a7;
   border-color: transparent;
   color: #fff;
 }
@@ -1694,26 +1514,26 @@ fieldset[disabled] .button.is-dark.is-inverted.is-outlined {
 
 .button.is-primary:focus:not(:active),
 .button.is-primary.is-focused:not(:active) {
-  box-shadow: 0 0 0 0.125em rgba(121, 87, 213, 0.25);
+  box-shadow: 0 0 0 0.125em rgba(0, 209, 178, 0.25);
 }
 
 .button.is-primary:active,
 .button.is-primary.is-active {
-  background-color: #6943d0;
+  background-color: #00b89c;
   border-color: transparent;
   color: #fff;
 }
 
 .button.is-primary[disabled],
 fieldset[disabled] .button.is-primary {
-  background-color: #7957d5;
+  background-color: #00d1b2;
   border-color: transparent;
   box-shadow: none;
 }
 
 .button.is-primary.is-inverted {
   background-color: #fff;
-  color: #7957d5;
+  color: #00d1b2;
 }
 
 .button.is-primary.is-inverted:hover,
@@ -1726,7 +1546,7 @@ fieldset[disabled] .button.is-primary.is-inverted {
   background-color: #fff;
   border-color: transparent;
   box-shadow: none;
-  color: #7957d5;
+  color: #00d1b2;
 }
 
 .button.is-primary.is-loading::after {
@@ -1735,21 +1555,21 @@ fieldset[disabled] .button.is-primary.is-inverted {
 
 .button.is-primary.is-outlined {
   background-color: transparent;
-  border-color: #7957d5;
-  color: #7957d5;
+  border-color: #00d1b2;
+  color: #00d1b2;
 }
 
 .button.is-primary.is-outlined:hover,
 .button.is-primary.is-outlined.is-hovered,
 .button.is-primary.is-outlined:focus,
 .button.is-primary.is-outlined.is-focused {
-  background-color: #7957d5;
-  border-color: #7957d5;
+  background-color: #00d1b2;
+  border-color: #00d1b2;
   color: #fff;
 }
 
 .button.is-primary.is-outlined.is-loading::after {
-  border-color: transparent transparent #7957d5 #7957d5 !important;
+  border-color: transparent transparent #00d1b2 #00d1b2 !important;
 }
 
 .button.is-primary.is-outlined.is-loading:hover::after,
@@ -1762,9 +1582,9 @@ fieldset[disabled] .button.is-primary.is-inverted {
 .button.is-primary.is-outlined[disabled],
 fieldset[disabled] .button.is-primary.is-outlined {
   background-color: transparent;
-  border-color: #7957d5;
+  border-color: #00d1b2;
   box-shadow: none;
-  color: #7957d5;
+  color: #00d1b2;
 }
 
 .button.is-primary.is-inverted.is-outlined {
@@ -1778,14 +1598,14 @@ fieldset[disabled] .button.is-primary.is-outlined {
 .button.is-primary.is-inverted.is-outlined:focus,
 .button.is-primary.is-inverted.is-outlined.is-focused {
   background-color: #fff;
-  color: #7957d5;
+  color: #00d1b2;
 }
 
 .button.is-primary.is-inverted.is-outlined.is-loading:hover::after,
 .button.is-primary.is-inverted.is-outlined.is-loading.is-hovered::after,
 .button.is-primary.is-inverted.is-outlined.is-loading:focus::after,
 .button.is-primary.is-inverted.is-outlined.is-loading.is-focused::after {
-  border-color: transparent transparent #7957d5 #7957d5 !important;
+  border-color: transparent transparent #00d1b2 #00d1b2 !important;
 }
 
 .button.is-primary.is-inverted.is-outlined[disabled],
@@ -1797,33 +1617,33 @@ fieldset[disabled] .button.is-primary.is-inverted.is-outlined {
 }
 
 .button.is-primary.is-light {
-  background-color: #f2effb;
-  color: #552fbc;
+  background-color: #ebfffc;
+  color: #00947e;
 }
 
 .button.is-primary.is-light:hover,
 .button.is-primary.is-light.is-hovered {
-  background-color: #eae4f8;
+  background-color: #defffa;
   border-color: transparent;
-  color: #552fbc;
+  color: #00947e;
 }
 
 .button.is-primary.is-light:active,
 .button.is-primary.is-light.is-active {
-  background-color: #e2daf6;
+  background-color: #d1fff8;
   border-color: transparent;
-  color: #552fbc;
+  color: #00947e;
 }
 
 .button.is-link {
-  background-color: #7957d5;
+  background-color: #485fc7;
   border-color: transparent;
   color: #fff;
 }
 
 .button.is-link:hover,
 .button.is-link.is-hovered {
-  background-color: #714dd2;
+  background-color: #3e56c4;
   border-color: transparent;
   color: #fff;
 }
@@ -1836,26 +1656,26 @@ fieldset[disabled] .button.is-primary.is-inverted.is-outlined {
 
 .button.is-link:focus:not(:active),
 .button.is-link.is-focused:not(:active) {
-  box-shadow: 0 0 0 0.125em rgba(121, 87, 213, 0.25);
+  box-shadow: 0 0 0 0.125em rgba(72, 95, 199, 0.25);
 }
 
 .button.is-link:active,
 .button.is-link.is-active {
-  background-color: #6943d0;
+  background-color: #3a51bb;
   border-color: transparent;
   color: #fff;
 }
 
 .button.is-link[disabled],
 fieldset[disabled] .button.is-link {
-  background-color: #7957d5;
+  background-color: #485fc7;
   border-color: transparent;
   box-shadow: none;
 }
 
 .button.is-link.is-inverted {
   background-color: #fff;
-  color: #7957d5;
+  color: #485fc7;
 }
 
 .button.is-link.is-inverted:hover,
@@ -1868,7 +1688,7 @@ fieldset[disabled] .button.is-link.is-inverted {
   background-color: #fff;
   border-color: transparent;
   box-shadow: none;
-  color: #7957d5;
+  color: #485fc7;
 }
 
 .button.is-link.is-loading::after {
@@ -1877,21 +1697,21 @@ fieldset[disabled] .button.is-link.is-inverted {
 
 .button.is-link.is-outlined {
   background-color: transparent;
-  border-color: #7957d5;
-  color: #7957d5;
+  border-color: #485fc7;
+  color: #485fc7;
 }
 
 .button.is-link.is-outlined:hover,
 .button.is-link.is-outlined.is-hovered,
 .button.is-link.is-outlined:focus,
 .button.is-link.is-outlined.is-focused {
-  background-color: #7957d5;
-  border-color: #7957d5;
+  background-color: #485fc7;
+  border-color: #485fc7;
   color: #fff;
 }
 
 .button.is-link.is-outlined.is-loading::after {
-  border-color: transparent transparent #7957d5 #7957d5 !important;
+  border-color: transparent transparent #485fc7 #485fc7 !important;
 }
 
 .button.is-link.is-outlined.is-loading:hover::after,
@@ -1904,9 +1724,9 @@ fieldset[disabled] .button.is-link.is-inverted {
 .button.is-link.is-outlined[disabled],
 fieldset[disabled] .button.is-link.is-outlined {
   background-color: transparent;
-  border-color: #7957d5;
+  border-color: #485fc7;
   box-shadow: none;
-  color: #7957d5;
+  color: #485fc7;
 }
 
 .button.is-link.is-inverted.is-outlined {
@@ -1920,14 +1740,14 @@ fieldset[disabled] .button.is-link.is-outlined {
 .button.is-link.is-inverted.is-outlined:focus,
 .button.is-link.is-inverted.is-outlined.is-focused {
   background-color: #fff;
-  color: #7957d5;
+  color: #485fc7;
 }
 
 .button.is-link.is-inverted.is-outlined.is-loading:hover::after,
 .button.is-link.is-inverted.is-outlined.is-loading.is-hovered::after,
 .button.is-link.is-inverted.is-outlined.is-loading:focus::after,
 .button.is-link.is-inverted.is-outlined.is-loading.is-focused::after {
-  border-color: transparent transparent #7957d5 #7957d5 !important;
+  border-color: transparent transparent #485fc7 #485fc7 !important;
 }
 
 .button.is-link.is-inverted.is-outlined[disabled],
@@ -1939,33 +1759,33 @@ fieldset[disabled] .button.is-link.is-inverted.is-outlined {
 }
 
 .button.is-link.is-light {
-  background-color: #f2effb;
-  color: #552fbc;
+  background-color: #eff1fa;
+  color: #3850b7;
 }
 
 .button.is-link.is-light:hover,
 .button.is-link.is-light.is-hovered {
-  background-color: #eae4f8;
+  background-color: #e6e9f7;
   border-color: transparent;
-  color: #552fbc;
+  color: #3850b7;
 }
 
 .button.is-link.is-light:active,
 .button.is-link.is-light.is-active {
-  background-color: #e2daf6;
+  background-color: #dce0f4;
   border-color: transparent;
-  color: #552fbc;
+  color: #3850b7;
 }
 
 .button.is-info {
-  background-color: #167df0;
+  background-color: #3e8ed0;
   border-color: transparent;
   color: #fff;
 }
 
 .button.is-info:hover,
 .button.is-info.is-hovered {
-  background-color: #0f77ea;
+  background-color: #3488ce;
   border-color: transparent;
   color: #fff;
 }
@@ -1978,26 +1798,26 @@ fieldset[disabled] .button.is-link.is-inverted.is-outlined {
 
 .button.is-info:focus:not(:active),
 .button.is-info.is-focused:not(:active) {
-  box-shadow: 0 0 0 0.125em rgba(22, 125, 240, 0.25);
+  box-shadow: 0 0 0 0.125em rgba(62, 142, 208, 0.25);
 }
 
 .button.is-info:active,
 .button.is-info.is-active {
-  background-color: #0e71de;
+  background-color: #3082c5;
   border-color: transparent;
   color: #fff;
 }
 
 .button.is-info[disabled],
 fieldset[disabled] .button.is-info {
-  background-color: #167df0;
+  background-color: #3e8ed0;
   border-color: transparent;
   box-shadow: none;
 }
 
 .button.is-info.is-inverted {
   background-color: #fff;
-  color: #167df0;
+  color: #3e8ed0;
 }
 
 .button.is-info.is-inverted:hover,
@@ -2010,7 +1830,7 @@ fieldset[disabled] .button.is-info.is-inverted {
   background-color: #fff;
   border-color: transparent;
   box-shadow: none;
-  color: #167df0;
+  color: #3e8ed0;
 }
 
 .button.is-info.is-loading::after {
@@ -2019,21 +1839,21 @@ fieldset[disabled] .button.is-info.is-inverted {
 
 .button.is-info.is-outlined {
   background-color: transparent;
-  border-color: #167df0;
-  color: #167df0;
+  border-color: #3e8ed0;
+  color: #3e8ed0;
 }
 
 .button.is-info.is-outlined:hover,
 .button.is-info.is-outlined.is-hovered,
 .button.is-info.is-outlined:focus,
 .button.is-info.is-outlined.is-focused {
-  background-color: #167df0;
-  border-color: #167df0;
+  background-color: #3e8ed0;
+  border-color: #3e8ed0;
   color: #fff;
 }
 
 .button.is-info.is-outlined.is-loading::after {
-  border-color: transparent transparent #167df0 #167df0 !important;
+  border-color: transparent transparent #3e8ed0 #3e8ed0 !important;
 }
 
 .button.is-info.is-outlined.is-loading:hover::after,
@@ -2046,9 +1866,9 @@ fieldset[disabled] .button.is-info.is-inverted {
 .button.is-info.is-outlined[disabled],
 fieldset[disabled] .button.is-info.is-outlined {
   background-color: transparent;
-  border-color: #167df0;
+  border-color: #3e8ed0;
   box-shadow: none;
-  color: #167df0;
+  color: #3e8ed0;
 }
 
 .button.is-info.is-inverted.is-outlined {
@@ -2062,14 +1882,14 @@ fieldset[disabled] .button.is-info.is-outlined {
 .button.is-info.is-inverted.is-outlined:focus,
 .button.is-info.is-inverted.is-outlined.is-focused {
   background-color: #fff;
-  color: #167df0;
+  color: #3e8ed0;
 }
 
 .button.is-info.is-inverted.is-outlined.is-loading:hover::after,
 .button.is-info.is-inverted.is-outlined.is-loading.is-hovered::after,
 .button.is-info.is-inverted.is-outlined.is-loading:focus::after,
 .button.is-info.is-inverted.is-outlined.is-loading.is-focused::after {
-  border-color: transparent transparent #167df0 #167df0 !important;
+  border-color: transparent transparent #3e8ed0 #3e8ed0 !important;
 }
 
 .button.is-info.is-inverted.is-outlined[disabled],
@@ -2081,22 +1901,22 @@ fieldset[disabled] .button.is-info.is-inverted.is-outlined {
 }
 
 .button.is-info.is-light {
-  background-color: #ecf4fe;
-  color: #0d68ce;
+  background-color: #eff5fb;
+  color: #296fa8;
 }
 
 .button.is-info.is-light:hover,
 .button.is-info.is-light.is-hovered {
-  background-color: #e0eefd;
+  background-color: #e4eff9;
   border-color: transparent;
-  color: #0d68ce;
+  color: #296fa8;
 }
 
 .button.is-info.is-light:active,
 .button.is-info.is-light.is-active {
-  background-color: #d4e7fc;
+  background-color: #dae9f6;
   border-color: transparent;
-  color: #0d68ce;
+  color: #296fa8;
 }
 
 .button.is-success {
@@ -2682,30 +2502,6 @@ fieldset[disabled] .button {
   margin-right: 0.25rem;
 }
 
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
 .container {
   flex-grow: 1;
   margin: 0 auto;
@@ -2749,30 +2545,6 @@ fieldset[disabled] .button {
     max-width: 1344px;
   }
 }
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
 
 .content li + li {
   margin-top: 0.25em;
@@ -2984,12 +2756,6 @@ fieldset[disabled] .button {
   font-size: 1.5rem;
 }
 
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
 .icon {
   align-items: center;
   display: inline-flex;
@@ -3038,30 +2804,6 @@ fieldset[disabled] .button {
 div.icon-text {
   display: flex;
 }
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
 
 .image {
   display: block;
@@ -3214,30 +2956,6 @@ div.icon-text {
   width: 128px;
 }
 
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
 .notification {
   background-color: whitesmoke;
   border-radius: 4px;
@@ -3296,33 +3014,33 @@ div.icon-text {
 }
 
 .notification.is-primary {
-  background-color: #7957d5;
+  background-color: #00d1b2;
   color: #fff;
 }
 
 .notification.is-primary.is-light {
-  background-color: #f2effb;
-  color: #552fbc;
+  background-color: #ebfffc;
+  color: #00947e;
 }
 
 .notification.is-link {
-  background-color: #7957d5;
+  background-color: #485fc7;
   color: #fff;
 }
 
 .notification.is-link.is-light {
-  background-color: #f2effb;
-  color: #552fbc;
+  background-color: #eff1fa;
+  color: #3850b7;
 }
 
 .notification.is-info {
-  background-color: #167df0;
+  background-color: #3e8ed0;
   color: #fff;
 }
 
 .notification.is-info.is-light {
-  background-color: #ecf4fe;
-  color: #0d68ce;
+  background-color: #eff5fb;
+  color: #296fa8;
 }
 
 .notification.is-success {
@@ -3354,30 +3072,6 @@ div.icon-text {
   background-color: #feecf0;
   color: #cc0f35;
 }
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
 
 .progress,
 .progress-wrapper.is-not-native {
@@ -3495,62 +3189,62 @@ div.icon-text {
 
 .progress.is-primary::-webkit-progress-value,
 .is-primary.progress-wrapper.is-not-native::-webkit-progress-value {
-  background-color: #7957d5;
+  background-color: #00d1b2;
 }
 
 .progress.is-primary::-moz-progress-bar,
 .is-primary.progress-wrapper.is-not-native::-moz-progress-bar {
-  background-color: #7957d5;
+  background-color: #00d1b2;
 }
 
 .progress.is-primary::-ms-fill,
 .is-primary.progress-wrapper.is-not-native::-ms-fill {
-  background-color: #7957d5;
+  background-color: #00d1b2;
 }
 
 .progress.is-primary:indeterminate,
 .is-primary.progress-wrapper.is-not-native:indeterminate {
-  background-image: linear-gradient(to right, #7957d5 30%, #ededed 30%);
+  background-image: linear-gradient(to right, #00d1b2 30%, #ededed 30%);
 }
 
 .progress.is-link::-webkit-progress-value,
 .is-link.progress-wrapper.is-not-native::-webkit-progress-value {
-  background-color: #7957d5;
+  background-color: #485fc7;
 }
 
 .progress.is-link::-moz-progress-bar,
 .is-link.progress-wrapper.is-not-native::-moz-progress-bar {
-  background-color: #7957d5;
+  background-color: #485fc7;
 }
 
 .progress.is-link::-ms-fill,
 .is-link.progress-wrapper.is-not-native::-ms-fill {
-  background-color: #7957d5;
+  background-color: #485fc7;
 }
 
 .progress.is-link:indeterminate,
 .is-link.progress-wrapper.is-not-native:indeterminate {
-  background-image: linear-gradient(to right, #7957d5 30%, #ededed 30%);
+  background-image: linear-gradient(to right, #485fc7 30%, #ededed 30%);
 }
 
 .progress.is-info::-webkit-progress-value,
 .is-info.progress-wrapper.is-not-native::-webkit-progress-value {
-  background-color: #167df0;
+  background-color: #3e8ed0;
 }
 
 .progress.is-info::-moz-progress-bar,
 .is-info.progress-wrapper.is-not-native::-moz-progress-bar {
-  background-color: #167df0;
+  background-color: #3e8ed0;
 }
 
 .progress.is-info::-ms-fill,
 .is-info.progress-wrapper.is-not-native::-ms-fill {
-  background-color: #167df0;
+  background-color: #3e8ed0;
 }
 
 .progress.is-info:indeterminate,
 .is-info.progress-wrapper.is-not-native:indeterminate {
-  background-image: linear-gradient(to right, #167df0 30%, #ededed 30%);
+  background-image: linear-gradient(to right, #3e8ed0 30%, #ededed 30%);
 }
 
 .progress.is-success::-webkit-progress-value,
@@ -3680,30 +3374,6 @@ div.icon-text {
   }
 }
 
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
 .table {
   background-color: white;
   color: #363636;
@@ -3747,22 +3417,22 @@ div.icon-text {
 
 .table td.is-primary,
 .table th.is-primary {
-  background-color: #7957d5;
-  border-color: #7957d5;
+  background-color: #00d1b2;
+  border-color: #00d1b2;
   color: #fff;
 }
 
 .table td.is-link,
 .table th.is-link {
-  background-color: #7957d5;
-  border-color: #7957d5;
+  background-color: #485fc7;
+  border-color: #485fc7;
   color: #fff;
 }
 
 .table td.is-info,
 .table th.is-info {
-  background-color: #167df0;
-  border-color: #167df0;
+  background-color: #3e8ed0;
+  border-color: #3e8ed0;
   color: #fff;
 }
 
@@ -3795,7 +3465,7 @@ div.icon-text {
 
 .table td.is-selected,
 .table th.is-selected {
-  background-color: #7957d5;
+  background-color: #00d1b2;
   color: #fff;
 }
 
@@ -3820,7 +3490,7 @@ div.icon-text {
 }
 
 .table tr.is-selected {
-  background-color: #7957d5;
+  background-color: #00d1b2;
   color: #fff;
 }
 
@@ -3905,30 +3575,6 @@ div.icon-text {
   overflow-y: hidden;
   max-width: 100%;
 }
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
 
 .tags {
   align-items: center;
@@ -4038,33 +3684,33 @@ div.icon-text {
 }
 
 .tag:not(body).is-primary {
-  background-color: #7957d5;
+  background-color: #00d1b2;
   color: #fff;
 }
 
 .tag:not(body).is-primary.is-light {
-  background-color: #f2effb;
-  color: #552fbc;
+  background-color: #ebfffc;
+  color: #00947e;
 }
 
 .tag:not(body).is-link {
-  background-color: #7957d5;
+  background-color: #485fc7;
   color: #fff;
 }
 
 .tag:not(body).is-link.is-light {
-  background-color: #f2effb;
-  color: #552fbc;
+  background-color: #eff1fa;
+  color: #3850b7;
 }
 
 .tag:not(body).is-info {
-  background-color: #167df0;
+  background-color: #3e8ed0;
   color: #fff;
 }
 
 .tag:not(body).is-info.is-light {
-  background-color: #ecf4fe;
-  color: #0d68ce;
+  background-color: #eff5fb;
+  color: #296fa8;
 }
 
 .tag:not(body).is-success {
@@ -4169,30 +3815,6 @@ div.icon-text {
 a.tag:hover {
   text-decoration: underline;
 }
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
 
 .title,
 .subtitle {
@@ -4309,30 +3931,6 @@ a.tag:hover {
   font-size: 0.75rem;
 }
 
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
 .heading {
   display: block;
   font-size: 11px;
@@ -4357,48 +3955,6 @@ a.tag:hover {
 }
 
 /* Bulma Form */
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
 
 .input,
 .textarea,
@@ -4465,8 +4021,8 @@ a.tag:hover {
 .is-active.textarea,
 .taginput .is-active.taginput-container.is-focusable,
 .select select.is-active {
-  border-color: #7957d5;
-  box-shadow: 0 0 0 0.125em rgba(121, 87, 213, 0.25);
+  border-color: #485fc7;
+  box-shadow: 0 0 0 0.125em rgba(72, 95, 199, 0.25);
 }
 
 .input[disabled],
@@ -4536,12 +4092,6 @@ fieldset[disabled] .select select:-ms-input-placeholder,
 .select fieldset[disabled] select:-ms-input-placeholder {
   color: rgba(122, 122, 122, 0.3);
 }
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
 
 .input,
 .textarea,
@@ -4644,7 +4194,7 @@ fieldset[disabled] .select select:-ms-input-placeholder,
 .is-primary.input,
 .is-primary.textarea,
 .taginput .is-primary.taginput-container.is-focusable {
-  border-color: #7957d5;
+  border-color: #00d1b2;
 }
 
 .is-primary.input:focus,
@@ -4659,13 +4209,13 @@ fieldset[disabled] .select select:-ms-input-placeholder,
 .is-primary.is-active.input,
 .is-primary.is-active.textarea,
 .taginput .is-primary.is-active.taginput-container.is-focusable {
-  box-shadow: 0 0 0 0.125em rgba(121, 87, 213, 0.25);
+  box-shadow: 0 0 0 0.125em rgba(0, 209, 178, 0.25);
 }
 
 .is-link.input,
 .is-link.textarea,
 .taginput .is-link.taginput-container.is-focusable {
-  border-color: #7957d5;
+  border-color: #485fc7;
 }
 
 .is-link.input:focus,
@@ -4680,13 +4230,13 @@ fieldset[disabled] .select select:-ms-input-placeholder,
 .is-link.is-active.input,
 .is-link.is-active.textarea,
 .taginput .is-link.is-active.taginput-container.is-focusable {
-  box-shadow: 0 0 0 0.125em rgba(121, 87, 213, 0.25);
+  box-shadow: 0 0 0 0.125em rgba(72, 95, 199, 0.25);
 }
 
 .is-info.input,
 .is-info.textarea,
 .taginput .is-info.taginput-container.is-focusable {
-  border-color: #167df0;
+  border-color: #3e8ed0;
 }
 
 .is-info.input:focus,
@@ -4701,7 +4251,7 @@ fieldset[disabled] .select select:-ms-input-placeholder,
 .is-info.is-active.input,
 .is-info.is-active.textarea,
 .taginput .is-info.is-active.taginput-container.is-focusable {
-  box-shadow: 0 0 0 0.125em rgba(22, 125, 240, 0.25);
+  box-shadow: 0 0 0 0.125em rgba(62, 142, 208, 0.25);
 }
 
 .is-success.input,
@@ -4867,12 +4417,6 @@ fieldset[disabled] .radio,
   margin-left: 0.5em;
 }
 
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
 .select {
   display: inline-block;
   max-width: 100%;
@@ -4885,7 +4429,7 @@ fieldset[disabled] .radio,
 }
 
 .select:not(.is-multiple):not(.is-loading)::after {
-  border-color: #7957d5;
+  border-color: #485fc7;
   right: 1.125em;
   z-index: 4;
 }
@@ -5010,63 +4554,63 @@ fieldset[disabled] .select select:hover {
 }
 
 .select.is-primary:not(:hover)::after {
-  border-color: #7957d5;
+  border-color: #00d1b2;
 }
 
 .select.is-primary select {
-  border-color: #7957d5;
+  border-color: #00d1b2;
 }
 
 .select.is-primary select:hover,
 .select.is-primary select.is-hovered {
-  border-color: #6943d0;
+  border-color: #00b89c;
 }
 
 .select.is-primary select:focus,
 .select.is-primary select.is-focused,
 .select.is-primary select:active,
 .select.is-primary select.is-active {
-  box-shadow: 0 0 0 0.125em rgba(121, 87, 213, 0.25);
+  box-shadow: 0 0 0 0.125em rgba(0, 209, 178, 0.25);
 }
 
 .select.is-link:not(:hover)::after {
-  border-color: #7957d5;
+  border-color: #485fc7;
 }
 
 .select.is-link select {
-  border-color: #7957d5;
+  border-color: #485fc7;
 }
 
 .select.is-link select:hover,
 .select.is-link select.is-hovered {
-  border-color: #6943d0;
+  border-color: #3a51bb;
 }
 
 .select.is-link select:focus,
 .select.is-link select.is-focused,
 .select.is-link select:active,
 .select.is-link select.is-active {
-  box-shadow: 0 0 0 0.125em rgba(121, 87, 213, 0.25);
+  box-shadow: 0 0 0 0.125em rgba(72, 95, 199, 0.25);
 }
 
 .select.is-info:not(:hover)::after {
-  border-color: #167df0;
+  border-color: #3e8ed0;
 }
 
 .select.is-info select {
-  border-color: #167df0;
+  border-color: #3e8ed0;
 }
 
 .select.is-info select:hover,
 .select.is-info select.is-hovered {
-  border-color: #0e71de;
+  border-color: #3082c5;
 }
 
 .select.is-info select:focus,
 .select.is-info select.is-focused,
 .select.is-info select:active,
 .select.is-info select.is-active {
-  box-shadow: 0 0 0 0.125em rgba(22, 125, 240, 0.25);
+  box-shadow: 0 0 0 0.125em rgba(62, 142, 208, 0.25);
 }
 
 .select.is-success:not(:hover)::after {
@@ -5173,12 +4717,6 @@ fieldset[disabled] .select select:hover {
 .select.is-loading.is-large:after {
   font-size: 1.5rem;
 }
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
 
 .file {
   align-items: stretch;
@@ -5296,14 +4834,14 @@ fieldset[disabled] .select select:hover {
 }
 
 .file.is-primary .file-cta {
-  background-color: #7957d5;
+  background-color: #00d1b2;
   border-color: transparent;
   color: #fff;
 }
 
 .file.is-primary:hover .file-cta,
 .file.is-primary.is-hovered .file-cta {
-  background-color: #714dd2;
+  background-color: #00c4a7;
   border-color: transparent;
   color: #fff;
 }
@@ -5311,26 +4849,26 @@ fieldset[disabled] .select select:hover {
 .file.is-primary:focus .file-cta,
 .file.is-primary.is-focused .file-cta {
   border-color: transparent;
-  box-shadow: 0 0 0.5em rgba(121, 87, 213, 0.25);
+  box-shadow: 0 0 0.5em rgba(0, 209, 178, 0.25);
   color: #fff;
 }
 
 .file.is-primary:active .file-cta,
 .file.is-primary.is-active .file-cta {
-  background-color: #6943d0;
+  background-color: #00b89c;
   border-color: transparent;
   color: #fff;
 }
 
 .file.is-link .file-cta {
-  background-color: #7957d5;
+  background-color: #485fc7;
   border-color: transparent;
   color: #fff;
 }
 
 .file.is-link:hover .file-cta,
 .file.is-link.is-hovered .file-cta {
-  background-color: #714dd2;
+  background-color: #3e56c4;
   border-color: transparent;
   color: #fff;
 }
@@ -5338,26 +4876,26 @@ fieldset[disabled] .select select:hover {
 .file.is-link:focus .file-cta,
 .file.is-link.is-focused .file-cta {
   border-color: transparent;
-  box-shadow: 0 0 0.5em rgba(121, 87, 213, 0.25);
+  box-shadow: 0 0 0.5em rgba(72, 95, 199, 0.25);
   color: #fff;
 }
 
 .file.is-link:active .file-cta,
 .file.is-link.is-active .file-cta {
-  background-color: #6943d0;
+  background-color: #3a51bb;
   border-color: transparent;
   color: #fff;
 }
 
 .file.is-info .file-cta {
-  background-color: #167df0;
+  background-color: #3e8ed0;
   border-color: transparent;
   color: #fff;
 }
 
 .file.is-info:hover .file-cta,
 .file.is-info.is-hovered .file-cta {
-  background-color: #0f77ea;
+  background-color: #3488ce;
   border-color: transparent;
   color: #fff;
 }
@@ -5365,13 +4903,13 @@ fieldset[disabled] .select select:hover {
 .file.is-info:focus .file-cta,
 .file.is-info.is-focused .file-cta {
   border-color: transparent;
-  box-shadow: 0 0 0.5em rgba(22, 125, 240, 0.25);
+  box-shadow: 0 0 0.5em rgba(62, 142, 208, 0.25);
   color: #fff;
 }
 
 .file.is-info:active .file-cta,
 .file.is-info.is-active .file-cta {
-  background-color: #0e71de;
+  background-color: #3082c5;
   border-color: transparent;
   color: #fff;
 }
@@ -5646,12 +5184,6 @@ fieldset[disabled] .select select:hover {
   font-size: 14px;
 }
 
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
 .label {
   color: #363636;
   display: block;
@@ -5698,15 +5230,15 @@ fieldset[disabled] .select select:hover {
 }
 
 .help.is-primary {
-  color: #7957d5;
+  color: #00d1b2;
 }
 
 .help.is-link {
-  color: #7957d5;
+  color: #485fc7;
 }
 
 .help.is-info {
-  color: #167df0;
+  color: #3e8ed0;
 }
 
 .help.is-success {
@@ -6015,30 +5547,6 @@ fieldset[disabled] .select select:hover {
 
 /* Bulma Components */
 
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
 .breadcrumb {
   font-size: 1rem;
   white-space: nowrap;
@@ -6046,7 +5554,7 @@ fieldset[disabled] .select select:hover {
 
 .breadcrumb a {
   align-items: center;
-  color: #7957d5;
+  color: #485fc7;
   display: flex;
   justify-content: center;
   padding: 0 0.75em;
@@ -6129,30 +5637,6 @@ fieldset[disabled] .select select:hover {
 .breadcrumb.has-succeeds-separator li + li::before {
   content: "\227B";
 }
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
 
 .card {
   background-color: white;
@@ -6260,30 +5744,6 @@ fieldset[disabled] .select select:hover {
   margin-bottom: 1.5rem;
 }
 
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
 .dropdown {
   display: inline-flex;
   position: relative;
@@ -6354,7 +5814,7 @@ button.dropdown-item:hover {
 a.dropdown-item.is-active,
 .dropdown .dropdown-menu .has-link a.is-active,
 button.dropdown-item.is-active {
-  background-color: #7957d5;
+  background-color: #485fc7;
   color: #fff;
 }
 
@@ -6365,30 +5825,6 @@ button.dropdown-item.is-active {
   height: 1px;
   margin: 0.5rem 0;
 }
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
 
 .level {
   align-items: center;
@@ -6503,30 +5939,6 @@ button.dropdown-item.is-active {
   }
 }
 
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
 .media {
   align-items: flex-start;
   display: flex;
@@ -6595,30 +6007,6 @@ button.dropdown-item.is-active {
   }
 }
 
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
 .menu {
   font-size: 1rem;
 }
@@ -6652,7 +6040,7 @@ button.dropdown-item.is-active {
 }
 
 .menu-list a.is-active {
-  background-color: #7957d5;
+  background-color: #485fc7;
   color: #fff;
 }
 
@@ -6676,30 +6064,6 @@ button.dropdown-item.is-active {
 .menu-label:not(:last-child) {
   margin-bottom: 1em;
 }
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
 
 .message {
   background-color: whitesmoke;
@@ -6781,45 +6145,45 @@ button.dropdown-item.is-active {
 }
 
 .message.is-primary {
-  background-color: #f2effb;
+  background-color: #ebfffc;
 }
 
 .message.is-primary .message-header {
-  background-color: #7957d5;
+  background-color: #00d1b2;
   color: #fff;
 }
 
 .message.is-primary .message-body {
-  border-color: #7957d5;
-  color: #552fbc;
+  border-color: #00d1b2;
+  color: #00947e;
 }
 
 .message.is-link {
-  background-color: #f2effb;
+  background-color: #eff1fa;
 }
 
 .message.is-link .message-header {
-  background-color: #7957d5;
+  background-color: #485fc7;
   color: #fff;
 }
 
 .message.is-link .message-body {
-  border-color: #7957d5;
-  color: #552fbc;
+  border-color: #485fc7;
+  color: #3850b7;
 }
 
 .message.is-info {
-  background-color: #ecf4fe;
+  background-color: #eff5fb;
 }
 
 .message.is-info .message-header {
-  background-color: #167df0;
+  background-color: #3e8ed0;
   color: #fff;
 }
 
 .message.is-info .message-body {
-  border-color: #167df0;
-  color: #0d68ce;
+  border-color: #3e8ed0;
+  color: #296fa8;
 }
 
 .message.is-success {
@@ -6906,30 +6270,6 @@ button.dropdown-item.is-active {
 .message-body pre code {
   background-color: transparent;
 }
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
 
 .modal {
   align-items: center;
@@ -7027,30 +6367,6 @@ button.dropdown-item.is-active {
   overflow: auto;
   padding: 20px;
 }
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
 
 .navbar {
   background-color: white;
@@ -7340,7 +6656,7 @@ button.dropdown-item.is-active {
 }
 
 .navbar.is-primary {
-  background-color: #7957d5;
+  background-color: #00d1b2;
   color: #fff;
 }
 
@@ -7355,7 +6671,7 @@ button.dropdown-item.is-active {
 .navbar.is-primary .navbar-brand .navbar-link:focus,
 .navbar.is-primary .navbar-brand .navbar-link:hover,
 .navbar.is-primary .navbar-brand .navbar-link.is-active {
-  background-color: #6943d0;
+  background-color: #00b89c;
   color: #fff;
 }
 
@@ -7387,7 +6703,7 @@ button.dropdown-item.is-active {
   .navbar.is-primary .navbar-end .navbar-link:focus,
   .navbar.is-primary .navbar-end .navbar-link:hover,
   .navbar.is-primary .navbar-end .navbar-link.is-active {
-    background-color: #6943d0;
+    background-color: #00b89c;
     color: #fff;
   }
 
@@ -7399,18 +6715,18 @@ button.dropdown-item.is-active {
   .navbar.is-primary .navbar-item.has-dropdown:focus .navbar-link,
   .navbar.is-primary .navbar-item.has-dropdown:hover .navbar-link,
   .navbar.is-primary .navbar-item.has-dropdown.is-active .navbar-link {
-    background-color: #6943d0;
+    background-color: #00b89c;
     color: #fff;
   }
 
   .navbar.is-primary .navbar-dropdown a.navbar-item.is-active {
-    background-color: #7957d5;
+    background-color: #00d1b2;
     color: #fff;
   }
 }
 
 .navbar.is-link {
-  background-color: #7957d5;
+  background-color: #485fc7;
   color: #fff;
 }
 
@@ -7425,7 +6741,7 @@ button.dropdown-item.is-active {
 .navbar.is-link .navbar-brand .navbar-link:focus,
 .navbar.is-link .navbar-brand .navbar-link:hover,
 .navbar.is-link .navbar-brand .navbar-link.is-active {
-  background-color: #6943d0;
+  background-color: #3a51bb;
   color: #fff;
 }
 
@@ -7457,7 +6773,7 @@ button.dropdown-item.is-active {
   .navbar.is-link .navbar-end .navbar-link:focus,
   .navbar.is-link .navbar-end .navbar-link:hover,
   .navbar.is-link .navbar-end .navbar-link.is-active {
-    background-color: #6943d0;
+    background-color: #3a51bb;
     color: #fff;
   }
 
@@ -7469,18 +6785,18 @@ button.dropdown-item.is-active {
   .navbar.is-link .navbar-item.has-dropdown:focus .navbar-link,
   .navbar.is-link .navbar-item.has-dropdown:hover .navbar-link,
   .navbar.is-link .navbar-item.has-dropdown.is-active .navbar-link {
-    background-color: #6943d0;
+    background-color: #3a51bb;
     color: #fff;
   }
 
   .navbar.is-link .navbar-dropdown a.navbar-item.is-active {
-    background-color: #7957d5;
+    background-color: #485fc7;
     color: #fff;
   }
 }
 
 .navbar.is-info {
-  background-color: #167df0;
+  background-color: #3e8ed0;
   color: #fff;
 }
 
@@ -7495,7 +6811,7 @@ button.dropdown-item.is-active {
 .navbar.is-info .navbar-brand .navbar-link:focus,
 .navbar.is-info .navbar-brand .navbar-link:hover,
 .navbar.is-info .navbar-brand .navbar-link.is-active {
-  background-color: #0e71de;
+  background-color: #3082c5;
   color: #fff;
 }
 
@@ -7527,7 +6843,7 @@ button.dropdown-item.is-active {
   .navbar.is-info .navbar-end .navbar-link:focus,
   .navbar.is-info .navbar-end .navbar-link:hover,
   .navbar.is-info .navbar-end .navbar-link.is-active {
-    background-color: #0e71de;
+    background-color: #3082c5;
     color: #fff;
   }
 
@@ -7539,12 +6855,12 @@ button.dropdown-item.is-active {
   .navbar.is-info .navbar-item.has-dropdown:focus .navbar-link,
   .navbar.is-info .navbar-item.has-dropdown:hover .navbar-link,
   .navbar.is-info .navbar-item.has-dropdown.is-active .navbar-link {
-    background-color: #0e71de;
+    background-color: #3082c5;
     color: #fff;
   }
 
   .navbar.is-info .navbar-dropdown a.navbar-item.is-active {
-    background-color: #167df0;
+    background-color: #3e8ed0;
     color: #fff;
   }
 }
@@ -7904,7 +7220,7 @@ a.navbar-item.is-active,
 .navbar-link:hover,
 .navbar-link.is-active {
   background-color: #fafafa;
-  color: #7957d5;
+  color: #485fc7;
 }
 
 .navbar-item {
@@ -7934,15 +7250,15 @@ a.navbar-item.is-active,
 .navbar-item.is-tab:focus,
 .navbar-item.is-tab:hover {
   background-color: transparent;
-  border-bottom-color: #7957d5;
+  border-bottom-color: #485fc7;
 }
 
 .navbar-item.is-tab.is-active {
   background-color: transparent;
-  border-bottom-color: #7957d5;
+  border-bottom-color: #485fc7;
   border-bottom-style: solid;
   border-bottom-width: 3px;
-  color: #7957d5;
+  color: #485fc7;
   padding-bottom: calc(0.5rem - 3px);
 }
 
@@ -7956,7 +7272,7 @@ a.navbar-item.is-active,
 }
 
 .navbar-link:not(.is-arrowless)::after {
-  border-color: #7957d5;
+  border-color: #485fc7;
   margin-top: -0.375em;
   right: 1.125em;
 }
@@ -8094,7 +7410,7 @@ a.navbar-item.is-active,
 
   .navbar.is-transparent .navbar-dropdown a.navbar-item.is-active {
     background-color: whitesmoke;
-    color: #7957d5;
+    color: #485fc7;
   }
 
   .navbar-burger {
@@ -8191,7 +7507,7 @@ a.navbar-item.is-active,
 
   .navbar-dropdown a.navbar-item.is-active {
     background-color: whitesmoke;
-    color: #7957d5;
+    color: #485fc7;
   }
 
   .navbar.is-spaced .navbar-dropdown,
@@ -8288,48 +7604,6 @@ a.navbar-item.is-active,
   min-height: calc(100vh - 3.25rem);
 }
 
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
 .pagination {
   font-size: 1rem;
   margin: -0.25rem;
@@ -8396,7 +7670,7 @@ a.navbar-item.is-active,
 .pagination-previous:focus,
 .pagination-next:focus,
 .pagination-link:focus {
-  border-color: #7957d5;
+  border-color: #485fc7;
 }
 
 .pagination-previous:active,
@@ -8423,8 +7697,8 @@ a.navbar-item.is-active,
 }
 
 .pagination-link.is-current {
-  background-color: #7957d5;
-  border-color: #7957d5;
+  background-color: #485fc7;
+  border-color: #485fc7;
   color: #fff;
 }
 
@@ -8515,30 +7789,6 @@ a.navbar-item.is-active,
   }
 }
 
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
 .panel {
   border-radius: 6px;
   box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
@@ -8602,42 +7852,42 @@ a.navbar-item.is-active,
 }
 
 .panel.is-primary .panel-heading {
-  background-color: #7957d5;
+  background-color: #00d1b2;
   color: #fff;
 }
 
 .panel.is-primary .panel-tabs a.is-active {
-  border-bottom-color: #7957d5;
+  border-bottom-color: #00d1b2;
 }
 
 .panel.is-primary .panel-block.is-active .panel-icon {
-  color: #7957d5;
+  color: #00d1b2;
 }
 
 .panel.is-link .panel-heading {
-  background-color: #7957d5;
+  background-color: #485fc7;
   color: #fff;
 }
 
 .panel.is-link .panel-tabs a.is-active {
-  border-bottom-color: #7957d5;
+  border-bottom-color: #485fc7;
 }
 
 .panel.is-link .panel-block.is-active .panel-icon {
-  color: #7957d5;
+  color: #485fc7;
 }
 
 .panel.is-info .panel-heading {
-  background-color: #167df0;
+  background-color: #3e8ed0;
   color: #fff;
 }
 
 .panel.is-info .panel-tabs a.is-active {
-  border-bottom-color: #167df0;
+  border-bottom-color: #3e8ed0;
 }
 
 .panel.is-info .panel-block.is-active .panel-icon {
-  color: #167df0;
+  color: #3e8ed0;
 }
 
 .panel.is-success .panel-heading {
@@ -8717,7 +7967,7 @@ a.navbar-item.is-active,
 }
 
 .panel-list a:hover {
-  color: #7957d5;
+  color: #485fc7;
 }
 
 .panel-block {
@@ -8743,12 +7993,12 @@ a.navbar-item.is-active,
 }
 
 .panel-block.is-active {
-  border-left-color: #7957d5;
+  border-left-color: #485fc7;
   color: #363636;
 }
 
 .panel-block.is-active .panel-icon {
-  color: #7957d5;
+  color: #485fc7;
 }
 
 .panel-block:last-child {
@@ -8782,30 +8032,6 @@ label.panel-block:hover {
   font-size: inherit;
   line-height: inherit;
 }
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
 
 .tabs {
   -webkit-overflow-scrolling: touch;
@@ -8841,8 +8067,8 @@ label.panel-block:hover {
 }
 
 .tabs li.is-active a {
-  border-bottom-color: #7957d5;
-  color: #7957d5;
+  border-bottom-color: #485fc7;
+  color: #485fc7;
 }
 
 .tabs ul {
@@ -8938,8 +8164,8 @@ label.panel-block:hover {
 }
 
 .tabs.is-toggle li.is-active a {
-  background-color: #7957d5;
-  border-color: #7957d5;
+  background-color: #485fc7;
+  border-color: #485fc7;
   color: #fff;
   z-index: 1;
 }
@@ -8973,30 +8199,6 @@ label.panel-block:hover {
 }
 
 /* Bulma Grid */
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
 
 .column {
   display: block;
@@ -11114,30 +10316,6 @@ label.panel-block:hover {
   }
 }
 
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
 .tile {
   align-items: stretch;
   display: block;
@@ -11247,24 +10425,6 @@ label.panel-block:hover {
 
 /* Bulma Helpers */
 
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
 .has-text-white {
   color: white !important;
 }
@@ -11318,120 +10478,120 @@ a.has-text-dark:focus {
 }
 
 .has-text-primary {
-  color: #7957d5 !important;
+  color: #00d1b2 !important;
 }
 
 a.has-text-primary:hover,
 a.has-text-primary:focus {
-  color: #5a32c7 !important;
+  color: #009e86 !important;
 }
 
 .has-background-primary {
-  background-color: #7957d5 !important;
+  background-color: #00d1b2 !important;
 }
 
 .has-text-primary-light {
-  color: #f2effb !important;
+  color: #ebfffc !important;
 }
 
 a.has-text-primary-light:hover,
 a.has-text-primary-light:focus {
-  color: #d1c6f1 !important;
+  color: #b8fff4 !important;
 }
 
 .has-background-primary-light {
-  background-color: #f2effb !important;
+  background-color: #ebfffc !important;
 }
 
 .has-text-primary-dark {
-  color: #552fbc !important;
+  color: #00947e !important;
 }
 
 a.has-text-primary-dark:hover,
 a.has-text-primary-dark:focus {
-  color: #704bd2 !important;
+  color: #00c7a9 !important;
 }
 
 .has-background-primary-dark {
-  background-color: #552fbc !important;
+  background-color: #00947e !important;
 }
 
 .has-text-link {
-  color: #7957d5 !important;
+  color: #485fc7 !important;
 }
 
 a.has-text-link:hover,
 a.has-text-link:focus {
-  color: #5a32c7 !important;
+  color: #3449a8 !important;
 }
 
 .has-background-link {
-  background-color: #7957d5 !important;
+  background-color: #485fc7 !important;
 }
 
 .has-text-link-light {
-  color: #f2effb !important;
+  color: #eff1fa !important;
 }
 
 a.has-text-link-light:hover,
 a.has-text-link-light:focus {
-  color: #d1c6f1 !important;
+  color: #c8cfee !important;
 }
 
 .has-background-link-light {
-  background-color: #f2effb !important;
+  background-color: #eff1fa !important;
 }
 
 .has-text-link-dark {
-  color: #552fbc !important;
+  color: #3850b7 !important;
 }
 
 a.has-text-link-dark:hover,
 a.has-text-link-dark:focus {
-  color: #704bd2 !important;
+  color: #576dcb !important;
 }
 
 .has-background-link-dark {
-  background-color: #552fbc !important;
+  background-color: #3850b7 !important;
 }
 
 .has-text-info {
-  color: #167df0 !important;
+  color: #3e8ed0 !important;
 }
 
 a.has-text-info:hover,
 a.has-text-info:focus {
-  color: #0d64c6 !important;
+  color: #2b74b1 !important;
 }
 
 .has-background-info {
-  background-color: #167df0 !important;
+  background-color: #3e8ed0 !important;
 }
 
 .has-text-info-light {
-  color: #ecf4fe !important;
+  color: #eff5fb !important;
 }
 
 a.has-text-info-light:hover,
 a.has-text-info-light:focus {
-  color: #bcdafb !important;
+  color: #c6ddf1 !important;
 }
 
 .has-background-info-light {
-  background-color: #ecf4fe !important;
+  background-color: #eff5fb !important;
 }
 
 .has-text-info-dark {
-  color: #0d68ce !important;
+  color: #296fa8 !important;
 }
 
 a.has-text-info-dark:hover,
 a.has-text-info-dark:focus {
-  color: #1e81f1 !important;
+  color: #368ace !important;
 }
 
 .has-background-info-dark {
-  background-color: #0d68ce !important;
+  background-color: #296fa8 !important;
 }
 
 .has-text-success {
@@ -11839,30 +10999,6 @@ a.has-text-danger-dark:focus {
   flex-shrink: 5 !important;
 }
 
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
 .is-clearfix::after {
   clear: both;
   content: " ";
@@ -11876,30 +11012,6 @@ a.has-text-danger-dark:focus {
 .is-pulled-right {
   float: right !important;
 }
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
 
 .is-radiusless {
   border-radius: 0 !important;
@@ -11918,30 +11030,6 @@ a.has-text-danger-dark:focus {
   overflow: hidden !important;
 }
 
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
 .is-relative {
   position: relative !important;
 }
@@ -11953,12 +11041,6 @@ a.has-text-danger-dark:focus {
 .is-paddingless {
   padding: 0 !important;
 }
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
 
 .m-0 {
   margin: 0 !important;
@@ -12439,30 +11521,6 @@ a.has-text-danger-dark:focus {
   padding-top: auto !important;
   padding-bottom: auto !important;
 }
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
 
 .is-size-1 {
   font-size: 3rem !important;
@@ -12964,30 +12022,6 @@ a.has-text-danger-dark:focus {
   font-family: monospace !important;
 }
 
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
 .is-block {
   display: block !important;
 }
@@ -13407,30 +12441,6 @@ a.has-text-danger-dark:focus {
 
 /* Bulma Layout */
 
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
 .hero {
   align-items: stretch;
   display: flex;
@@ -13787,7 +12797,7 @@ a.has-text-danger-dark:focus {
 }
 
 .hero.is-primary {
-  background-color: #7957d5;
+  background-color: #00d1b2;
   color: #fff;
 }
 
@@ -13811,7 +12821,7 @@ a.has-text-danger-dark:focus {
 
 @media screen and (max-width: 1023px) {
   .hero.is-primary .navbar-menu {
-    background-color: #7957d5;
+    background-color: #00d1b2;
   }
 }
 
@@ -13824,7 +12834,7 @@ a.has-text-danger-dark:focus {
 .hero.is-primary a.navbar-item.is-active,
 .hero.is-primary .navbar-link:hover,
 .hero.is-primary .navbar-link.is-active {
-  background-color: #6943d0;
+  background-color: #00b89c;
   color: #fff;
 }
 
@@ -13838,7 +12848,7 @@ a.has-text-danger-dark:focus {
 }
 
 .hero.is-primary .tabs li.is-active a {
-  color: #7957d5 !important;
+  color: #00d1b2 !important;
   opacity: 1;
 }
 
@@ -13858,21 +12868,21 @@ a.has-text-danger-dark:focus {
 .hero.is-primary .tabs.is-toggle li.is-active a:hover {
   background-color: #fff;
   border-color: #fff;
-  color: #7957d5;
+  color: #00d1b2;
 }
 
 .hero.is-primary.is-bold {
-  background-image: linear-gradient(141deg, #3725d4 0%, #7957d5 71%, #9b67df 100%);
+  background-image: linear-gradient(141deg, #009e6c 0%, #00d1b2 71%, #00e7eb 100%);
 }
 
 @media screen and (max-width: 768px) {
   .hero.is-primary.is-bold .navbar-menu {
-    background-image: linear-gradient(141deg, #3725d4 0%, #7957d5 71%, #9b67df 100%);
+    background-image: linear-gradient(141deg, #009e6c 0%, #00d1b2 71%, #00e7eb 100%);
   }
 }
 
 .hero.is-link {
-  background-color: #7957d5;
+  background-color: #485fc7;
   color: #fff;
 }
 
@@ -13896,7 +12906,7 @@ a.has-text-danger-dark:focus {
 
 @media screen and (max-width: 1023px) {
   .hero.is-link .navbar-menu {
-    background-color: #7957d5;
+    background-color: #485fc7;
   }
 }
 
@@ -13909,7 +12919,7 @@ a.has-text-danger-dark:focus {
 .hero.is-link a.navbar-item.is-active,
 .hero.is-link .navbar-link:hover,
 .hero.is-link .navbar-link.is-active {
-  background-color: #6943d0;
+  background-color: #3a51bb;
   color: #fff;
 }
 
@@ -13923,7 +12933,7 @@ a.has-text-danger-dark:focus {
 }
 
 .hero.is-link .tabs li.is-active a {
-  color: #7957d5 !important;
+  color: #485fc7 !important;
   opacity: 1;
 }
 
@@ -13943,21 +12953,21 @@ a.has-text-danger-dark:focus {
 .hero.is-link .tabs.is-toggle li.is-active a:hover {
   background-color: #fff;
   border-color: #fff;
-  color: #7957d5;
+  color: #485fc7;
 }
 
 .hero.is-link.is-bold {
-  background-image: linear-gradient(141deg, #3725d4 0%, #7957d5 71%, #9b67df 100%);
+  background-image: linear-gradient(141deg, #2959b3 0%, #485fc7 71%, #5658d2 100%);
 }
 
 @media screen and (max-width: 768px) {
   .hero.is-link.is-bold .navbar-menu {
-    background-image: linear-gradient(141deg, #3725d4 0%, #7957d5 71%, #9b67df 100%);
+    background-image: linear-gradient(141deg, #2959b3 0%, #485fc7 71%, #5658d2 100%);
   }
 }
 
 .hero.is-info {
-  background-color: #167df0;
+  background-color: #3e8ed0;
   color: #fff;
 }
 
@@ -13981,7 +12991,7 @@ a.has-text-danger-dark:focus {
 
 @media screen and (max-width: 1023px) {
   .hero.is-info .navbar-menu {
-    background-color: #167df0;
+    background-color: #3e8ed0;
   }
 }
 
@@ -13994,7 +13004,7 @@ a.has-text-danger-dark:focus {
 .hero.is-info a.navbar-item.is-active,
 .hero.is-info .navbar-link:hover,
 .hero.is-info .navbar-link.is-active {
-  background-color: #0e71de;
+  background-color: #3082c5;
   color: #fff;
 }
 
@@ -14008,7 +13018,7 @@ a.has-text-danger-dark:focus {
 }
 
 .hero.is-info .tabs li.is-active a {
-  color: #167df0 !important;
+  color: #3e8ed0 !important;
   opacity: 1;
 }
 
@@ -14028,16 +13038,16 @@ a.has-text-danger-dark:focus {
 .hero.is-info .tabs.is-toggle li.is-active a:hover {
   background-color: #fff;
   border-color: #fff;
-  color: #167df0;
+  color: #3e8ed0;
 }
 
 .hero.is-info.is-bold {
-  background-image: linear-gradient(141deg, #0286d1 0%, #167df0 71%, #2868f7 100%);
+  background-image: linear-gradient(141deg, #208fbc 0%, #3e8ed0 71%, #4d83db 100%);
 }
 
 @media screen and (max-width: 768px) {
   .hero.is-info.is-bold .navbar-menu {
-    background-image: linear-gradient(141deg, #0286d1 0%, #167df0 71%, #2868f7 100%);
+    background-image: linear-gradient(141deg, #208fbc 0%, #3e8ed0 71%, #4d83db 100%);
   }
 }
 
@@ -14400,30 +13410,6 @@ a.has-text-danger-dark:focus {
   }
 }
 
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
 .section {
   padding: 3rem 1.5rem;
 }
@@ -14442,34 +13428,10 @@ a.has-text-danger-dark:focus {
   }
 }
 
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
 .footer {
   background-color: #fafafa;
   padding: 3rem 1.5rem 6rem;
 }
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
 
 .is-noscroll {
   position: fixed;
@@ -14699,12 +13661,6 @@ a.has-text-danger-dark:focus {
   max-height: 0;
 }
 
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
 .autocomplete {
   position: relative;
 }
@@ -14758,12 +13714,6 @@ a.has-text-danger-dark:focus {
 .autocomplete.is-large {
   font-size: 1.5rem;
 }
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
 
 .carousel {
   min-height: 120px;
@@ -14868,13 +13818,13 @@ a.has-text-danger-dark:focus {
 
 .carousel .carousel-indicator .indicator-item.is-active .indicator-style,
 .carousel .carousel-indicator .indicator-item .indicator-style:hover {
-  background: #7957d5;
+  background: #00d1b2;
   border: 1px solid white;
 }
 
 .carousel .carousel-indicator .indicator-item .indicator-style {
   display: block;
-  border: 1px solid #7957d5;
+  border: 1px solid #00d1b2;
   background: white;
   outline: none;
   transition: 150ms ease-out;
@@ -14953,7 +13903,7 @@ a.has-text-danger-dark:focus {
 
 .carousel-arrow .icon {
   background: white;
-  color: #7957d5;
+  color: #00d1b2;
   cursor: pointer;
   border: 1px solid white;
   border-radius: 9999px;
@@ -14961,7 +13911,7 @@ a.has-text-danger-dark:focus {
 }
 
 .carousel-arrow .icon:hover {
-  border: 1px solid #7957d5;
+  border: 1px solid #00d1b2;
   opacity: 1;
 }
 
@@ -14980,12 +13930,6 @@ a.has-text-danger-dark:focus {
 .carousel-arrow .icon.has-icons-right {
   right: 1.5rem;
 }
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
 
 .b-checkbox.checkbox {
   outline: none;
@@ -15020,8 +13964,8 @@ a.has-text-danger-dark:focus {
 }
 
 .b-checkbox.checkbox input[type=checkbox]:checked + .check {
-  background: #7957d5 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'%3E%3Cpath style='fill:%23fff' d='M 0.04038059,0.6267767 0.14644661,0.52071068 0.42928932,0.80355339 0.3232233,0.90961941 z M 0.21715729,0.80355339 0.85355339,0.16715729 0.95961941,0.2732233 0.3232233,0.90961941 z'%3E%3C/path%3E%3C/svg%3E") no-repeat center center;
-  border-color: #7957d5;
+  background: #00d1b2 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'%3E%3Cpath style='fill:%23fff' d='M 0.04038059,0.6267767 0.14644661,0.52071068 0.42928932,0.80355339 0.3232233,0.90961941 z M 0.21715729,0.80355339 0.85355339,0.16715729 0.95961941,0.2732233 0.3232233,0.90961941 z'%3E%3C/path%3E%3C/svg%3E") no-repeat center center;
+  border-color: #00d1b2;
 }
 
 .b-checkbox.checkbox input[type=checkbox]:checked + .check.is-white {
@@ -15045,18 +13989,18 @@ a.has-text-danger-dark:focus {
 }
 
 .b-checkbox.checkbox input[type=checkbox]:checked + .check.is-primary {
-  background: #7957d5 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'%3E%3Cpath style='fill:%23fff' d='M 0.04038059,0.6267767 0.14644661,0.52071068 0.42928932,0.80355339 0.3232233,0.90961941 z M 0.21715729,0.80355339 0.85355339,0.16715729 0.95961941,0.2732233 0.3232233,0.90961941 z'%3E%3C/path%3E%3C/svg%3E") no-repeat center center;
-  border-color: #7957d5;
+  background: #00d1b2 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'%3E%3Cpath style='fill:%23fff' d='M 0.04038059,0.6267767 0.14644661,0.52071068 0.42928932,0.80355339 0.3232233,0.90961941 z M 0.21715729,0.80355339 0.85355339,0.16715729 0.95961941,0.2732233 0.3232233,0.90961941 z'%3E%3C/path%3E%3C/svg%3E") no-repeat center center;
+  border-color: #00d1b2;
 }
 
 .b-checkbox.checkbox input[type=checkbox]:checked + .check.is-link {
-  background: #7957d5 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'%3E%3Cpath style='fill:%23fff' d='M 0.04038059,0.6267767 0.14644661,0.52071068 0.42928932,0.80355339 0.3232233,0.90961941 z M 0.21715729,0.80355339 0.85355339,0.16715729 0.95961941,0.2732233 0.3232233,0.90961941 z'%3E%3C/path%3E%3C/svg%3E") no-repeat center center;
-  border-color: #7957d5;
+  background: #485fc7 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'%3E%3Cpath style='fill:%23fff' d='M 0.04038059,0.6267767 0.14644661,0.52071068 0.42928932,0.80355339 0.3232233,0.90961941 z M 0.21715729,0.80355339 0.85355339,0.16715729 0.95961941,0.2732233 0.3232233,0.90961941 z'%3E%3C/path%3E%3C/svg%3E") no-repeat center center;
+  border-color: #485fc7;
 }
 
 .b-checkbox.checkbox input[type=checkbox]:checked + .check.is-info {
-  background: #167df0 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'%3E%3Cpath style='fill:%23fff' d='M 0.04038059,0.6267767 0.14644661,0.52071068 0.42928932,0.80355339 0.3232233,0.90961941 z M 0.21715729,0.80355339 0.85355339,0.16715729 0.95961941,0.2732233 0.3232233,0.90961941 z'%3E%3C/path%3E%3C/svg%3E") no-repeat center center;
-  border-color: #167df0;
+  background: #3e8ed0 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'%3E%3Cpath style='fill:%23fff' d='M 0.04038059,0.6267767 0.14644661,0.52071068 0.42928932,0.80355339 0.3232233,0.90961941 z M 0.21715729,0.80355339 0.85355339,0.16715729 0.95961941,0.2732233 0.3232233,0.90961941 z'%3E%3C/path%3E%3C/svg%3E") no-repeat center center;
+  border-color: #3e8ed0;
 }
 
 .b-checkbox.checkbox input[type=checkbox]:checked + .check.is-success {
@@ -15075,8 +14019,8 @@ a.has-text-danger-dark:focus {
 }
 
 .b-checkbox.checkbox input[type=checkbox]:indeterminate + .check {
-  background: #7957d5 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'%3E%3Crect style='fill:%23fff' width='0.7' height='0.2' x='.15' y='.4'%3E%3C/rect%3E%3C/svg%3E") no-repeat center center;
-  border-color: #7957d5;
+  background: #00d1b2 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'%3E%3Crect style='fill:%23fff' width='0.7' height='0.2' x='.15' y='.4'%3E%3C/rect%3E%3C/svg%3E") no-repeat center center;
+  border-color: #00d1b2;
 }
 
 .b-checkbox.checkbox input[type=checkbox]:indeterminate + .check.is-white {
@@ -15100,18 +14044,18 @@ a.has-text-danger-dark:focus {
 }
 
 .b-checkbox.checkbox input[type=checkbox]:indeterminate + .check.is-primary {
-  background: #7957d5 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'%3E%3Crect style='fill:%23fff' width='0.7' height='0.2' x='.15' y='.4'%3E%3C/rect%3E%3C/svg%3E") no-repeat center center;
-  border-color: #7957d5;
+  background: #00d1b2 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'%3E%3Crect style='fill:%23fff' width='0.7' height='0.2' x='.15' y='.4'%3E%3C/rect%3E%3C/svg%3E") no-repeat center center;
+  border-color: #00d1b2;
 }
 
 .b-checkbox.checkbox input[type=checkbox]:indeterminate + .check.is-link {
-  background: #7957d5 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'%3E%3Crect style='fill:%23fff' width='0.7' height='0.2' x='.15' y='.4'%3E%3C/rect%3E%3C/svg%3E") no-repeat center center;
-  border-color: #7957d5;
+  background: #485fc7 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'%3E%3Crect style='fill:%23fff' width='0.7' height='0.2' x='.15' y='.4'%3E%3C/rect%3E%3C/svg%3E") no-repeat center center;
+  border-color: #485fc7;
 }
 
 .b-checkbox.checkbox input[type=checkbox]:indeterminate + .check.is-info {
-  background: #167df0 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'%3E%3Crect style='fill:%23fff' width='0.7' height='0.2' x='.15' y='.4'%3E%3C/rect%3E%3C/svg%3E") no-repeat center center;
-  border-color: #167df0;
+  background: #3e8ed0 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'%3E%3Crect style='fill:%23fff' width='0.7' height='0.2' x='.15' y='.4'%3E%3C/rect%3E%3C/svg%3E") no-repeat center center;
+  border-color: #3e8ed0;
 }
 
 .b-checkbox.checkbox input[type=checkbox]:indeterminate + .check.is-success {
@@ -15134,7 +14078,7 @@ a.has-text-danger-dark:focus {
 }
 
 .b-checkbox.checkbox input[type=checkbox]:focus:checked + .check {
-  box-shadow: 0 0 0.5em rgba(121, 87, 213, 0.8);
+  box-shadow: 0 0 0.5em rgba(0, 209, 178, 0.8);
 }
 
 .b-checkbox.checkbox input[type=checkbox]:focus:checked + .check.is-white {
@@ -15154,15 +14098,15 @@ a.has-text-danger-dark:focus {
 }
 
 .b-checkbox.checkbox input[type=checkbox]:focus:checked + .check.is-primary {
-  box-shadow: 0 0 0.5em rgba(121, 87, 213, 0.8);
+  box-shadow: 0 0 0.5em rgba(0, 209, 178, 0.8);
 }
 
 .b-checkbox.checkbox input[type=checkbox]:focus:checked + .check.is-link {
-  box-shadow: 0 0 0.5em rgba(121, 87, 213, 0.8);
+  box-shadow: 0 0 0.5em rgba(72, 95, 199, 0.8);
 }
 
 .b-checkbox.checkbox input[type=checkbox]:focus:checked + .check.is-info {
-  box-shadow: 0 0 0.5em rgba(22, 125, 240, 0.8);
+  box-shadow: 0 0 0.5em rgba(62, 142, 208, 0.8);
 }
 
 .b-checkbox.checkbox input[type=checkbox]:focus:checked + .check.is-success {
@@ -15190,7 +14134,7 @@ a.has-text-danger-dark:focus {
 }
 
 .b-checkbox.checkbox:hover input[type=checkbox]:not(:disabled) + .check {
-  border-color: #7957d5;
+  border-color: #00d1b2;
 }
 
 .b-checkbox.checkbox:hover input[type=checkbox]:not(:disabled) + .check.is-white {
@@ -15210,15 +14154,15 @@ a.has-text-danger-dark:focus {
 }
 
 .b-checkbox.checkbox:hover input[type=checkbox]:not(:disabled) + .check.is-primary {
-  border-color: #7957d5;
+  border-color: #00d1b2;
 }
 
 .b-checkbox.checkbox:hover input[type=checkbox]:not(:disabled) + .check.is-link {
-  border-color: #7957d5;
+  border-color: #485fc7;
 }
 
 .b-checkbox.checkbox:hover input[type=checkbox]:not(:disabled) + .check.is-info {
-  border-color: #167df0;
+  border-color: #3e8ed0;
 }
 
 .b-checkbox.checkbox:hover input[type=checkbox]:not(:disabled) + .check.is-success {
@@ -15246,30 +14190,22 @@ a.has-text-danger-dark:focus {
   font-size: 1.5rem;
 }
 
-.b-clockpicker {
-  /*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-}
-
 .b-clockpicker .card-header {
-  background-color: #7957d5;
+  background-color: #00d1b2;
   color: #fff;
 }
 
 .b-clockpicker .b-clockpicker-face:after {
-  background-color: #7957d5;
+  background-color: #00d1b2;
 }
 
 .b-clockpicker .b-clockpicker-face-hand {
-  background-color: #7957d5;
-  border-color: #7957d5;
+  background-color: #00d1b2;
+  border-color: #00d1b2;
 }
 
 .b-clockpicker .b-clockpicker-face-number.active {
-  background-color: #7957d5;
+  background-color: #00d1b2;
   color: #fff;
 }
 
@@ -15350,59 +14286,59 @@ a.has-text-danger-dark:focus {
 }
 
 .b-clockpicker.is-primary .card-header {
-  background-color: #7957d5;
+  background-color: #00d1b2;
   color: #fff;
 }
 
 .b-clockpicker.is-primary .b-clockpicker-face:after {
-  background-color: #7957d5;
+  background-color: #00d1b2;
 }
 
 .b-clockpicker.is-primary .b-clockpicker-face-hand {
-  background-color: #7957d5;
-  border-color: #7957d5;
+  background-color: #00d1b2;
+  border-color: #00d1b2;
 }
 
 .b-clockpicker.is-primary .b-clockpicker-face-number.active {
-  background-color: #7957d5;
+  background-color: #00d1b2;
   color: #fff;
 }
 
 .b-clockpicker.is-link .card-header {
-  background-color: #7957d5;
+  background-color: #485fc7;
   color: #fff;
 }
 
 .b-clockpicker.is-link .b-clockpicker-face:after {
-  background-color: #7957d5;
+  background-color: #485fc7;
 }
 
 .b-clockpicker.is-link .b-clockpicker-face-hand {
-  background-color: #7957d5;
-  border-color: #7957d5;
+  background-color: #485fc7;
+  border-color: #485fc7;
 }
 
 .b-clockpicker.is-link .b-clockpicker-face-number.active {
-  background-color: #7957d5;
+  background-color: #485fc7;
   color: #fff;
 }
 
 .b-clockpicker.is-info .card-header {
-  background-color: #167df0;
+  background-color: #3e8ed0;
   color: #fff;
 }
 
 .b-clockpicker.is-info .b-clockpicker-face:after {
-  background-color: #167df0;
+  background-color: #3e8ed0;
 }
 
 .b-clockpicker.is-info .b-clockpicker-face-hand {
-  background-color: #167df0;
-  border-color: #167df0;
+  background-color: #3e8ed0;
+  border-color: #3e8ed0;
 }
 
 .b-clockpicker.is-info .b-clockpicker-face-number.active {
-  background-color: #167df0;
+  background-color: #3e8ed0;
   color: #fff;
 }
 
@@ -15486,7 +14422,7 @@ a.has-text-danger-dark:focus {
 .b-clockpicker .dropdown-trigger .input[readonly].is-focused,
 .b-clockpicker .dropdown-trigger .input[readonly]:active,
 .b-clockpicker .dropdown-trigger .input[readonly].is-active {
-  box-shadow: 0 0 0 0.125em rgba(121, 87, 213, 0.25);
+  box-shadow: 0 0 0 0.125em rgba(72, 95, 199, 0.25);
 }
 
 .b-clockpicker .dropdown-item,
@@ -15569,7 +14505,7 @@ a.has-text-danger-dark:focus {
 
 .b-clockpicker-body .b-clockpicker-btn:hover,
 .b-clockpicker-body .b-clockpicker-btn.active {
-  background-color: #7957d5;
+  background-color: #00d1b2;
   color: white;
 }
 
@@ -15718,12 +14654,6 @@ a.has-text-danger-dark:focus {
   display: inherit;
 }
 
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
 .datepicker {
   font-size: 0.875rem;
 }
@@ -15747,7 +14677,7 @@ a.has-text-danger-dark:focus {
 .datepicker .dropdown-trigger .input[readonly].is-focused,
 .datepicker .dropdown-trigger .input[readonly]:active,
 .datepicker .dropdown-trigger .input[readonly].is-active {
-  box-shadow: 0 0 0 0.125em rgba(121, 87, 213, 0.25);
+  box-shadow: 0 0 0 0.125em rgba(72, 95, 199, 0.25);
 }
 
 .datepicker .dropdown.is-disabled {
@@ -15828,7 +14758,7 @@ a.has-text-danger-dark:focus {
 }
 
 .datepicker .datepicker-table .datepicker-body .datepicker-cell.is-today {
-  border: solid 1px rgba(121, 87, 213, 0.5);
+  border: solid 1px rgba(0, 209, 178, 0.5);
 }
 
 .datepicker .datepicker-table .datepicker-body .datepicker-cell.is-selectable {
@@ -15863,24 +14793,24 @@ a.has-text-danger-dark:focus {
 }
 
 .datepicker .datepicker-table .datepicker-body .datepicker-cell.is-selected {
-  background-color: #7957d5;
+  background-color: #00d1b2;
   color: #fff;
 }
 
 .datepicker .datepicker-table .datepicker-body .datepicker-cell.is-selected.is-first-selected {
-  background-color: #7957d5;
+  background-color: #00d1b2;
   color: #fff;
   border-bottom-right-radius: 0;
   border-top-right-radius: 0;
 }
 
 .datepicker .datepicker-table .datepicker-body .datepicker-cell.is-selected.is-within-selected {
-  background-color: rgba(121, 87, 213, 0.5);
+  background-color: rgba(0, 209, 178, 0.5);
   border-radius: 0;
 }
 
 .datepicker .datepicker-table .datepicker-body .datepicker-cell.is-selected.is-last-selected {
-  background-color: #7957d5;
+  background-color: #00d1b2;
   color: #fff;
   border-bottom-left-radius: 0;
   border-top-left-radius: 0;
@@ -15929,15 +14859,15 @@ a.has-text-danger-dark:focus {
 }
 
 .datepicker .datepicker-table .datepicker-body.has-events .datepicker-cell.has-event .events .event.is-primary {
-  background-color: #7957d5;
+  background-color: #00d1b2;
 }
 
 .datepicker .datepicker-table .datepicker-body.has-events .datepicker-cell.has-event .events .event.is-link {
-  background-color: #7957d5;
+  background-color: #485fc7;
 }
 
 .datepicker .datepicker-table .datepicker-body.has-events .datepicker-cell.has-event .events .event.is-info {
-  background-color: #167df0;
+  background-color: #3e8ed0;
 }
 
 .datepicker .datepicker-table .datepicker-body.has-events .datepicker-cell.has-event .events .event.is-success {
@@ -15969,7 +14899,7 @@ a.has-text-danger-dark:focus {
 }
 
 .datepicker .datepicker-table .datepicker-body.has-events .datepicker-cell.is-selected .events .event.is-primary {
-  background-color: #aa94e4;
+  background-color: #1fffdd;
 }
 
 .datepicker.is-small {
@@ -16059,12 +14989,6 @@ a.has-text-danger-dark:focus {
 .dialog.has-custom-container {
   position: absolute;
 }
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
 
 .dropdown + .dropdown {
   margin-left: 0.5em;
@@ -16195,12 +15119,6 @@ a.has-text-danger-dark:focus {
     padding: 1rem 1.5rem;
   }
 }
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
 
 .field.is-grouped .field {
   flex-shrink: 0;
@@ -16475,12 +15393,6 @@ a.has-text-danger-dark:focus {
   right: calc((2.5em * 0.5) - .5em);
 }
 
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
 .icon {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -16500,12 +15412,6 @@ a.has-text-danger-dark:focus {
   height: auto;
 }
 
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
 .b-image-wrapper > img {
   -o-object-fit: cover;
      object-fit: cover;
@@ -16520,12 +15426,6 @@ a.has-text-danger-dark:focus {
 .b-image-wrapper > img.placeholder {
   filter: blur(10px);
 }
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
 
 .loading-overlay {
   bottom: 0;
@@ -16647,12 +15547,6 @@ a.has-text-danger-dark:focus {
   visibility: visible;
 }
 
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
 .notices {
   position: fixed;
   display: flex;
@@ -16701,17 +15595,17 @@ a.has-text-danger-dark:focus {
 
 .notices .toast.is-primary {
   color: #fff;
-  background: #7957d5;
+  background: #00d1b2;
 }
 
 .notices .toast.is-link {
   color: #fff;
-  background: #7957d5;
+  background: #485fc7;
 }
 
 .notices .toast.is-info {
   color: #fff;
-  background: #167df0;
+  background: #3e8ed0;
 }
 
 .notices .toast.is-success {
@@ -16786,15 +15680,15 @@ a.has-text-danger-dark:focus {
 }
 
 .notices .snackbar .action.is-primary .button {
-  color: #7957d5;
+  color: #00d1b2;
 }
 
 .notices .snackbar .action.is-link .button {
-  color: #7957d5;
+  color: #485fc7;
 }
 
 .notices .snackbar .action.is-info .button {
-  color: #167df0;
+  color: #3e8ed0;
 }
 
 .notices .snackbar .action.is-success .button {
@@ -17136,7 +16030,7 @@ a.has-text-danger-dark:focus {
 }
 
 .progress-wrapper.is-not-native .progress-bar.is-primary {
-  background-color: #7957d5;
+  background-color: #00d1b2;
 }
 
 .progress-wrapper.is-not-native .progress-bar.is-primary .progress-value {
@@ -17144,7 +16038,7 @@ a.has-text-danger-dark:focus {
 }
 
 .progress-wrapper.is-not-native .progress-bar.is-link {
-  background-color: #7957d5;
+  background-color: #485fc7;
 }
 
 .progress-wrapper.is-not-native .progress-bar.is-link .progress-value {
@@ -17152,7 +16046,7 @@ a.has-text-danger-dark:focus {
 }
 
 .progress-wrapper.is-not-native .progress-bar.is-info {
-  background-color: #167df0;
+  background-color: #3e8ed0;
 }
 
 .progress-wrapper.is-not-native .progress-bar.is-info .progress-value {
@@ -17182,12 +16076,6 @@ a.has-text-danger-dark:focus {
 .progress-wrapper.is-not-native .progress-bar.is-danger .progress-value {
   color: #fff;
 }
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
 
 .b-radio.radio {
   outline: none;
@@ -17240,7 +16128,7 @@ a.has-text-danger-dark:focus {
   transition: transform 150ms ease-out;
   border-radius: 50%;
   transform: scale(0);
-  background-color: #7957d5;
+  background-color: #00d1b2;
 }
 
 .b-radio.radio input[type=radio] + .check.is-white:before {
@@ -17260,15 +16148,15 @@ a.has-text-danger-dark:focus {
 }
 
 .b-radio.radio input[type=radio] + .check.is-primary:before {
-  background: #7957d5;
+  background: #00d1b2;
 }
 
 .b-radio.radio input[type=radio] + .check.is-link:before {
-  background: #7957d5;
+  background: #485fc7;
 }
 
 .b-radio.radio input[type=radio] + .check.is-info:before {
-  background: #167df0;
+  background: #3e8ed0;
 }
 
 .b-radio.radio input[type=radio] + .check.is-success:before {
@@ -17284,7 +16172,7 @@ a.has-text-danger-dark:focus {
 }
 
 .b-radio.radio input[type=radio]:checked + .check {
-  border-color: #7957d5;
+  border-color: #00d1b2;
 }
 
 .b-radio.radio input[type=radio]:checked + .check.is-white {
@@ -17304,15 +16192,15 @@ a.has-text-danger-dark:focus {
 }
 
 .b-radio.radio input[type=radio]:checked + .check.is-primary {
-  border-color: #7957d5;
+  border-color: #00d1b2;
 }
 
 .b-radio.radio input[type=radio]:checked + .check.is-link {
-  border-color: #7957d5;
+  border-color: #485fc7;
 }
 
 .b-radio.radio input[type=radio]:checked + .check.is-info {
-  border-color: #167df0;
+  border-color: #3e8ed0;
 }
 
 .b-radio.radio input[type=radio]:checked + .check.is-success {
@@ -17336,7 +16224,7 @@ a.has-text-danger-dark:focus {
 }
 
 .b-radio.radio input[type=radio]:focus:checked + .check {
-  box-shadow: 0 0 0.5em rgba(121, 87, 213, 0.8);
+  box-shadow: 0 0 0.5em rgba(0, 209, 178, 0.8);
 }
 
 .b-radio.radio input[type=radio]:focus:checked + .check.is-white {
@@ -17356,15 +16244,15 @@ a.has-text-danger-dark:focus {
 }
 
 .b-radio.radio input[type=radio]:focus:checked + .check.is-primary {
-  box-shadow: 0 0 0.5em rgba(121, 87, 213, 0.8);
+  box-shadow: 0 0 0.5em rgba(0, 209, 178, 0.8);
 }
 
 .b-radio.radio input[type=radio]:focus:checked + .check.is-link {
-  box-shadow: 0 0 0.5em rgba(121, 87, 213, 0.8);
+  box-shadow: 0 0 0.5em rgba(72, 95, 199, 0.8);
 }
 
 .b-radio.radio input[type=radio]:focus:checked + .check.is-info {
-  box-shadow: 0 0 0.5em rgba(22, 125, 240, 0.8);
+  box-shadow: 0 0 0.5em rgba(62, 142, 208, 0.8);
 }
 
 .b-radio.radio input[type=radio]:focus:checked + .check.is-success {
@@ -17396,7 +16284,7 @@ a.has-text-danger-dark:focus {
 }
 
 .b-radio.radio:hover input[type=radio]:not(:disabled) + .check {
-  border-color: #7957d5;
+  border-color: #00d1b2;
 }
 
 .b-radio.radio:hover input[type=radio]:not(:disabled) + .check.is-white {
@@ -17416,15 +16304,15 @@ a.has-text-danger-dark:focus {
 }
 
 .b-radio.radio:hover input[type=radio]:not(:disabled) + .check.is-primary {
-  border-color: #7957d5;
+  border-color: #00d1b2;
 }
 
 .b-radio.radio:hover input[type=radio]:not(:disabled) + .check.is-link {
-  border-color: #7957d5;
+  border-color: #485fc7;
 }
 
 .b-radio.radio:hover input[type=radio]:not(:disabled) + .check.is-info {
-  border-color: #167df0;
+  border-color: #3e8ed0;
 }
 
 .b-radio.radio:hover input[type=radio]:not(:disabled) + .check.is-success {
@@ -17451,12 +16339,6 @@ a.has-text-danger-dark:focus {
 .b-radio.radio.is-large {
   font-size: 1.5rem;
 }
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
 
 .rate {
   align-items: center;
@@ -17575,12 +16457,6 @@ a.has-text-danger-dark:focus {
   right: calc((2.5em * 0.5) - .5em);
 }
 
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
 .b-skeleton {
   display: inline-flex;
   flex-direction: column;
@@ -17659,12 +16535,6 @@ a.has-text-danger-dark:focus {
   }
 }
 
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
 .b-sidebar .sidebar-content {
   background-color: whitesmoke;
   box-shadow: 5px 0px 13px 3px rgba(10, 10, 10, 0.1);
@@ -17689,15 +16559,15 @@ a.has-text-danger-dark:focus {
 }
 
 .b-sidebar .sidebar-content.is-primary {
-  background-color: #7957d5;
+  background-color: #00d1b2;
 }
 
 .b-sidebar .sidebar-content.is-link {
-  background-color: #7957d5;
+  background-color: #485fc7;
 }
 
 .b-sidebar .sidebar-content.is-info {
-  background-color: #167df0;
+  background-color: #3e8ed0;
 }
 
 .b-sidebar .sidebar-content.is-success {
@@ -17809,12 +16679,6 @@ a.has-text-danger-dark:focus {
   position: fixed;
   z-index: 38;
 }
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
 
 .b-slider {
   margin: 1em 0;
@@ -18006,15 +16870,15 @@ a.has-text-danger-dark:focus {
 }
 
 .b-slider.is-primary .b-slider-fill {
-  background: #7957d5 !important;
+  background: #00d1b2 !important;
 }
 
 .b-slider.is-link .b-slider-fill {
-  background: #7957d5 !important;
+  background: #485fc7 !important;
 }
 
 .b-slider.is-info .b-slider-fill {
-  background: #167df0 !important;
+  background: #3e8ed0 !important;
 }
 
 .b-slider.is-success .b-slider-fill {
@@ -18047,12 +16911,6 @@ This project is based on
 "bulma-steps" (https://github.com/Wikiki/bulma-steps) by
 Wikiki (https://github.com/Wikiki) licensed under
 MIT (https://github.com/Wikiki/bulma-steps/blob/master/LICENSE)
-*/
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
 */
 
 .b-steps .steps .step-items {
@@ -18206,15 +17064,15 @@ MIT (https://github.com/Wikiki/bulma-steps/blob/master/LICENSE)
 
 .b-steps .steps .step-items .step-item.is-primary::before,
 .b-steps .steps .step-items .step-item.is-primary::after {
-  background: linear-gradient(to left, #dbdbdb 50%, #7957d5 50%);
+  background: linear-gradient(to left, #dbdbdb 50%, #00d1b2 50%);
   background-size: 200% 100%;
   background-position: right bottom;
 }
 
 .b-steps .steps .step-items .step-item.is-primary.is-active .step-marker {
   background-color: white;
-  border-color: #7957d5;
-  color: #7957d5;
+  border-color: #00d1b2;
+  color: #00d1b2;
 }
 
 .b-steps .steps .step-items .step-item.is-primary.is-active::before,
@@ -18224,7 +17082,7 @@ MIT (https://github.com/Wikiki/bulma-steps/blob/master/LICENSE)
 
 .b-steps .steps .step-items .step-item.is-primary.is-previous .step-marker {
   color: #fff;
-  background-color: #7957d5;
+  background-color: #00d1b2;
 }
 
 .b-steps .steps .step-items .step-item.is-primary.is-previous::before,
@@ -18234,15 +17092,15 @@ MIT (https://github.com/Wikiki/bulma-steps/blob/master/LICENSE)
 
 .b-steps .steps .step-items .step-item.is-link::before,
 .b-steps .steps .step-items .step-item.is-link::after {
-  background: linear-gradient(to left, #dbdbdb 50%, #7957d5 50%);
+  background: linear-gradient(to left, #dbdbdb 50%, #485fc7 50%);
   background-size: 200% 100%;
   background-position: right bottom;
 }
 
 .b-steps .steps .step-items .step-item.is-link.is-active .step-marker {
   background-color: white;
-  border-color: #7957d5;
-  color: #7957d5;
+  border-color: #485fc7;
+  color: #485fc7;
 }
 
 .b-steps .steps .step-items .step-item.is-link.is-active::before,
@@ -18252,7 +17110,7 @@ MIT (https://github.com/Wikiki/bulma-steps/blob/master/LICENSE)
 
 .b-steps .steps .step-items .step-item.is-link.is-previous .step-marker {
   color: #fff;
-  background-color: #7957d5;
+  background-color: #485fc7;
 }
 
 .b-steps .steps .step-items .step-item.is-link.is-previous::before,
@@ -18262,15 +17120,15 @@ MIT (https://github.com/Wikiki/bulma-steps/blob/master/LICENSE)
 
 .b-steps .steps .step-items .step-item.is-info::before,
 .b-steps .steps .step-items .step-item.is-info::after {
-  background: linear-gradient(to left, #dbdbdb 50%, #167df0 50%);
+  background: linear-gradient(to left, #dbdbdb 50%, #3e8ed0 50%);
   background-size: 200% 100%;
   background-position: right bottom;
 }
 
 .b-steps .steps .step-items .step-item.is-info.is-active .step-marker {
   background-color: white;
-  border-color: #167df0;
-  color: #167df0;
+  border-color: #3e8ed0;
+  color: #3e8ed0;
 }
 
 .b-steps .steps .step-items .step-item.is-info.is-active::before,
@@ -18280,7 +17138,7 @@ MIT (https://github.com/Wikiki/bulma-steps/blob/master/LICENSE)
 
 .b-steps .steps .step-items .step-item.is-info.is-previous .step-marker {
   color: #fff;
-  background-color: #167df0;
+  background-color: #3e8ed0;
 }
 
 .b-steps .steps .step-items .step-item.is-info.is-previous::before,
@@ -18417,7 +17275,7 @@ MIT (https://github.com/Wikiki/bulma-steps/blob/master/LICENSE)
 
 .b-steps .steps .step-items .step-item::before,
 .b-steps .steps .step-items .step-item::after {
-  background: linear-gradient(to left, #dbdbdb 50%, #7957d5 50%);
+  background: linear-gradient(to left, #dbdbdb 50%, #00d1b2 50%);
   background-size: 200% 100%;
   background-position: right bottom;
 }
@@ -18428,8 +17286,8 @@ MIT (https://github.com/Wikiki/bulma-steps/blob/master/LICENSE)
 
 .b-steps .steps .step-items .step-item.is-active .step-marker {
   background-color: white;
-  border-color: #7957d5;
-  color: #7957d5;
+  border-color: #00d1b2;
+  color: #00d1b2;
 }
 
 .b-steps .steps .step-items .step-item.is-active::before,
@@ -18439,7 +17297,7 @@ MIT (https://github.com/Wikiki/bulma-steps/blob/master/LICENSE)
 
 .b-steps .steps .step-items .step-item.is-previous .step-marker {
   color: white;
-  background-color: #7957d5;
+  background-color: #00d1b2;
 }
 
 .b-steps .steps .step-items .step-item.is-previous::before,
@@ -18790,7 +17648,7 @@ MIT (https://github.com/Wikiki/bulma-steps/blob/master/LICENSE)
 
 .b-steps.is-vertical > .steps .step-items .step-item::before,
 .b-steps.is-vertical > .steps .step-items .step-item::after {
-  background: linear-gradient(to top, #dbdbdb 50%, #7957d5 50%);
+  background: linear-gradient(to top, #dbdbdb 50%, #00d1b2 50%);
   background-size: 100% 200%;
   background-position: left bottom;
 }
@@ -18825,21 +17683,21 @@ MIT (https://github.com/Wikiki/bulma-steps/blob/master/LICENSE)
 
 .b-steps.is-vertical > .steps .step-items .step-item.is-primary::before,
 .b-steps.is-vertical > .steps .step-items .step-item.is-primary::after {
-  background: linear-gradient(to top, #dbdbdb 50%, #7957d5 50%);
+  background: linear-gradient(to top, #dbdbdb 50%, #00d1b2 50%);
   background-size: 100% 200%;
   background-position: left bottom;
 }
 
 .b-steps.is-vertical > .steps .step-items .step-item.is-link::before,
 .b-steps.is-vertical > .steps .step-items .step-item.is-link::after {
-  background: linear-gradient(to top, #dbdbdb 50%, #7957d5 50%);
+  background: linear-gradient(to top, #dbdbdb 50%, #485fc7 50%);
   background-size: 100% 200%;
   background-position: left bottom;
 }
 
 .b-steps.is-vertical > .steps .step-items .step-item.is-info::before,
 .b-steps.is-vertical > .steps .step-items .step-item.is-info::after {
-  background: linear-gradient(to top, #dbdbdb 50%, #167df0 50%);
+  background: linear-gradient(to top, #dbdbdb 50%, #3e8ed0 50%);
   background-size: 100% 200%;
   background-position: left bottom;
 }
@@ -18947,12 +17805,6 @@ MIT (https://github.com/Wikiki/bulma-steps/blob/master/LICENSE)
   }
 }
 
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
 .switch {
   cursor: pointer;
   display: inline-flex;
@@ -19023,7 +17875,7 @@ MIT (https://github.com/Wikiki/bulma-steps/blob/master/LICENSE)
 
 .switch input[type=checkbox] + .check.is-primary-passive,
 .switch input[type=checkbox] + .check:hover {
-  background: #7957d5;
+  background: #00d1b2;
 }
 
 .switch input[type=checkbox] + .check.input[type=checkbox] + .switch input[type=checkbox] + .check.check {
@@ -19032,7 +17884,7 @@ MIT (https://github.com/Wikiki/bulma-steps/blob/master/LICENSE)
 
 .switch input[type=checkbox] + .check.is-link-passive,
 .switch input[type=checkbox] + .check:hover {
-  background: #7957d5;
+  background: #485fc7;
 }
 
 .switch input[type=checkbox] + .check.input[type=checkbox] + .switch input[type=checkbox] + .check.check {
@@ -19041,7 +17893,7 @@ MIT (https://github.com/Wikiki/bulma-steps/blob/master/LICENSE)
 
 .switch input[type=checkbox] + .check.is-info-passive,
 .switch input[type=checkbox] + .check:hover {
-  background: #167df0;
+  background: #3e8ed0;
 }
 
 .switch input[type=checkbox] + .check.input[type=checkbox] + .switch input[type=checkbox] + .check.check {
@@ -19094,7 +17946,7 @@ MIT (https://github.com/Wikiki/bulma-steps/blob/master/LICENSE)
 }
 
 .switch input[type=checkbox]:checked + .check {
-  background: #7957d5;
+  background: #00d1b2;
 }
 
 .switch input[type=checkbox]:checked + .check.is-white {
@@ -19114,15 +17966,15 @@ MIT (https://github.com/Wikiki/bulma-steps/blob/master/LICENSE)
 }
 
 .switch input[type=checkbox]:checked + .check.is-primary {
-  background: #7957d5;
+  background: #00d1b2;
 }
 
 .switch input[type=checkbox]:checked + .check.is-link {
-  background: #7957d5;
+  background: #485fc7;
 }
 
 .switch input[type=checkbox]:checked + .check.is-info {
-  background: #167df0;
+  background: #3e8ed0;
 }
 
 .switch input[type=checkbox]:checked + .check.is-success {
@@ -19177,17 +18029,17 @@ MIT (https://github.com/Wikiki/bulma-steps/blob/master/LICENSE)
 
 .switch input[type=checkbox]:focus + .check.is-primary-passive,
 .switch input[type=checkbox]:active + .check.is-primary-passive {
-  box-shadow: 0 0 0.5em rgba(121, 87, 213, 0.8);
+  box-shadow: 0 0 0.5em rgba(0, 209, 178, 0.8);
 }
 
 .switch input[type=checkbox]:focus + .check.is-link-passive,
 .switch input[type=checkbox]:active + .check.is-link-passive {
-  box-shadow: 0 0 0.5em rgba(121, 87, 213, 0.8);
+  box-shadow: 0 0 0.5em rgba(72, 95, 199, 0.8);
 }
 
 .switch input[type=checkbox]:focus + .check.is-info-passive,
 .switch input[type=checkbox]:active + .check.is-info-passive {
-  box-shadow: 0 0 0.5em rgba(22, 125, 240, 0.8);
+  box-shadow: 0 0 0.5em rgba(62, 142, 208, 0.8);
 }
 
 .switch input[type=checkbox]:focus + .check.is-success-passive,
@@ -19207,7 +18059,7 @@ MIT (https://github.com/Wikiki/bulma-steps/blob/master/LICENSE)
 
 .switch input[type=checkbox]:focus:checked + .check,
 .switch input[type=checkbox]:active:checked + .check {
-  box-shadow: 0 0 0.5em rgba(121, 87, 213, 0.8);
+  box-shadow: 0 0 0.5em rgba(0, 209, 178, 0.8);
 }
 
 .switch input[type=checkbox]:focus:checked + .check.is-white,
@@ -19232,17 +18084,17 @@ MIT (https://github.com/Wikiki/bulma-steps/blob/master/LICENSE)
 
 .switch input[type=checkbox]:focus:checked + .check.is-primary,
 .switch input[type=checkbox]:active:checked + .check.is-primary {
-  box-shadow: 0 0 0.5em rgba(121, 87, 213, 0.8);
+  box-shadow: 0 0 0.5em rgba(0, 209, 178, 0.8);
 }
 
 .switch input[type=checkbox]:focus:checked + .check.is-link,
 .switch input[type=checkbox]:active:checked + .check.is-link {
-  box-shadow: 0 0 0.5em rgba(121, 87, 213, 0.8);
+  box-shadow: 0 0 0.5em rgba(72, 95, 199, 0.8);
 }
 
 .switch input[type=checkbox]:focus:checked + .check.is-info,
 .switch input[type=checkbox]:active:checked + .check.is-info {
-  box-shadow: 0 0 0.5em rgba(22, 125, 240, 0.8);
+  box-shadow: 0 0 0.5em rgba(62, 142, 208, 0.8);
 }
 
 .switch input[type=checkbox]:focus:checked + .check.is-success,
@@ -19293,15 +18145,15 @@ MIT (https://github.com/Wikiki/bulma-steps/blob/master/LICENSE)
 }
 
 .switch:hover input[type=checkbox] + .check.is-primary-passive {
-  background: rgba(121, 87, 213, 0.9);
+  background: rgba(0, 209, 178, 0.9);
 }
 
 .switch:hover input[type=checkbox] + .check.is-link-passive {
-  background: rgba(121, 87, 213, 0.9);
+  background: rgba(72, 95, 199, 0.9);
 }
 
 .switch:hover input[type=checkbox] + .check.is-info-passive {
-  background: rgba(22, 125, 240, 0.9);
+  background: rgba(62, 142, 208, 0.9);
 }
 
 .switch:hover input[type=checkbox] + .check.is-success-passive {
@@ -19317,7 +18169,7 @@ MIT (https://github.com/Wikiki/bulma-steps/blob/master/LICENSE)
 }
 
 .switch:hover input[type=checkbox]:checked + .check {
-  background: rgba(121, 87, 213, 0.9);
+  background: rgba(0, 209, 178, 0.9);
 }
 
 .switch:hover input[type=checkbox]:checked + .check.is-white {
@@ -19337,15 +18189,15 @@ MIT (https://github.com/Wikiki/bulma-steps/blob/master/LICENSE)
 }
 
 .switch:hover input[type=checkbox]:checked + .check.is-primary {
-  background: rgba(121, 87, 213, 0.9);
+  background: rgba(0, 209, 178, 0.9);
 }
 
 .switch:hover input[type=checkbox]:checked + .check.is-link {
-  background: rgba(121, 87, 213, 0.9);
+  background: rgba(72, 95, 199, 0.9);
 }
 
 .switch:hover input[type=checkbox]:checked + .check.is-info {
-  background: rgba(22, 125, 240, 0.9);
+  background: rgba(62, 142, 208, 0.9);
 }
 
 .switch:hover input[type=checkbox]:checked + .check.is-success {
@@ -19427,39 +18279,39 @@ MIT (https://github.com/Wikiki/bulma-steps/blob/master/LICENSE)
 }
 
 .switch.is-outlined input[type=checkbox] + .check.is-primary-passive {
-  border: 0.1rem solid rgba(121, 87, 213, 0.9);
+  border: 0.1rem solid rgba(0, 209, 178, 0.9);
 }
 
 .switch.is-outlined input[type=checkbox] + .check.is-primary-passive:before {
-  background: #7957d5;
+  background: #00d1b2;
 }
 
 .switch.is-outlined input[type=checkbox] + .check.is-primary-passive:hover {
-  border-color: rgba(121, 87, 213, 0.9);
+  border-color: rgba(0, 209, 178, 0.9);
 }
 
 .switch.is-outlined input[type=checkbox] + .check.is-link-passive {
-  border: 0.1rem solid rgba(121, 87, 213, 0.9);
+  border: 0.1rem solid rgba(72, 95, 199, 0.9);
 }
 
 .switch.is-outlined input[type=checkbox] + .check.is-link-passive:before {
-  background: #7957d5;
+  background: #485fc7;
 }
 
 .switch.is-outlined input[type=checkbox] + .check.is-link-passive:hover {
-  border-color: rgba(121, 87, 213, 0.9);
+  border-color: rgba(72, 95, 199, 0.9);
 }
 
 .switch.is-outlined input[type=checkbox] + .check.is-info-passive {
-  border: 0.1rem solid rgba(22, 125, 240, 0.9);
+  border: 0.1rem solid rgba(62, 142, 208, 0.9);
 }
 
 .switch.is-outlined input[type=checkbox] + .check.is-info-passive:before {
-  background: #167df0;
+  background: #3e8ed0;
 }
 
 .switch.is-outlined input[type=checkbox] + .check.is-info-passive:hover {
-  border-color: rgba(22, 125, 240, 0.9);
+  border-color: rgba(62, 142, 208, 0.9);
 }
 
 .switch.is-outlined input[type=checkbox] + .check.is-success-passive {
@@ -19503,7 +18355,7 @@ MIT (https://github.com/Wikiki/bulma-steps/blob/master/LICENSE)
 }
 
 .switch.is-outlined input[type=checkbox]:checked + .check {
-  border-color: #7957d5;
+  border-color: #00d1b2;
 }
 
 .switch.is-outlined input[type=checkbox]:checked + .check.is-white {
@@ -19544,29 +18396,29 @@ MIT (https://github.com/Wikiki/bulma-steps/blob/master/LICENSE)
 
 .switch.is-outlined input[type=checkbox]:checked + .check.is-primary {
   background: transparent;
-  border-color: #7957d5;
+  border-color: #00d1b2;
 }
 
 .switch.is-outlined input[type=checkbox]:checked + .check.is-primary:before {
-  background: #7957d5;
+  background: #00d1b2;
 }
 
 .switch.is-outlined input[type=checkbox]:checked + .check.is-link {
   background: transparent;
-  border-color: #7957d5;
+  border-color: #485fc7;
 }
 
 .switch.is-outlined input[type=checkbox]:checked + .check.is-link:before {
-  background: #7957d5;
+  background: #485fc7;
 }
 
 .switch.is-outlined input[type=checkbox]:checked + .check.is-info {
   background: transparent;
-  border-color: #167df0;
+  border-color: #3e8ed0;
 }
 
 .switch.is-outlined input[type=checkbox]:checked + .check.is-info:before {
-  background: #167df0;
+  background: #3e8ed0;
 }
 
 .switch.is-outlined input[type=checkbox]:checked + .check.is-success {
@@ -19597,7 +18449,7 @@ MIT (https://github.com/Wikiki/bulma-steps/blob/master/LICENSE)
 }
 
 .switch.is-outlined input[type=checkbox]:checked + .check:before {
-  background: #7957d5;
+  background: #00d1b2;
 }
 
 .switch.is-outlined:hover input[type=checkbox] + .check {
@@ -19607,7 +18459,7 @@ MIT (https://github.com/Wikiki/bulma-steps/blob/master/LICENSE)
 
 .switch.is-outlined:hover input[type=checkbox]:checked + .check {
   background: transparent;
-  border-color: rgba(121, 87, 213, 0.9);
+  border-color: rgba(0, 209, 178, 0.9);
 }
 
 .switch.is-outlined:hover input[type=checkbox]:checked + .check.is-white {
@@ -19627,15 +18479,15 @@ MIT (https://github.com/Wikiki/bulma-steps/blob/master/LICENSE)
 }
 
 .switch.is-outlined:hover input[type=checkbox]:checked + .check.is-primary {
-  border-color: rgba(121, 87, 213, 0.9);
+  border-color: rgba(0, 209, 178, 0.9);
 }
 
 .switch.is-outlined:hover input[type=checkbox]:checked + .check.is-link {
-  border-color: rgba(121, 87, 213, 0.9);
+  border-color: rgba(72, 95, 199, 0.9);
 }
 
 .switch.is-outlined:hover input[type=checkbox]:checked + .check.is-info {
-  border-color: rgba(22, 125, 240, 0.9);
+  border-color: rgba(62, 142, 208, 0.9);
 }
 
 .switch.is-outlined:hover input[type=checkbox]:checked + .check.is-success {
@@ -19668,12 +18520,6 @@ MIT (https://github.com/Wikiki/bulma-steps/blob/master/LICENSE)
   cursor: not-allowed;
   color: #7a7a7a;
 }
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
 
 .table-wrapper .table {
   margin-bottom: 0;
@@ -19791,7 +18637,7 @@ MIT (https://github.com/Wikiki/bulma-steps/blob/master/LICENSE)
 }
 
 .b-table .table tr.is-selected .checkbox input:checked + .check {
-  background: #fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'%3E%3Cpath style='fill:%237957d5' d='M 0.04038059,0.6267767 0.14644661,0.52071068 0.42928932,0.80355339 0.3232233,0.90961941 z M 0.21715729,0.80355339 0.85355339,0.16715729 0.95961941,0.2732233 0.3232233,0.90961941 z'%3E%3C/path%3E%3C/svg%3E") no-repeat center center;
+  background: #fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'%3E%3Cpath style='fill:%2300d1b2' d='M 0.04038059,0.6267767 0.14644661,0.52071068 0.42928932,0.80355339 0.3232233,0.90961941 z M 0.21715729,0.80355339 0.85355339,0.16715729 0.95961941,0.2732233 0.3232233,0.90961941 z'%3E%3C/path%3E%3C/svg%3E") no-repeat center center;
 }
 
 .b-table .table tr.is-selected .checkbox input + .check {
@@ -19807,7 +18653,7 @@ MIT (https://github.com/Wikiki/bulma-steps/blob/master/LICENSE)
 }
 
 .b-table .table .chevron-cell > a {
-  color: #7957d5 !important;
+  color: #485fc7 !important;
 }
 
 .b-table .table .checkbox-cell {
@@ -19832,8 +18678,8 @@ MIT (https://github.com/Wikiki/bulma-steps/blob/master/LICENSE)
 }
 
 .b-table .table:focus {
-  border-color: #7957d5;
-  box-shadow: 0 0 0 0.125em rgba(121, 87, 213, 0.25);
+  border-color: #485fc7;
+  box-shadow: 0 0 0 0.125em rgba(72, 95, 199, 0.25);
 }
 
 .b-table .table.is-bordered th.is-current-sort,
@@ -20028,12 +18874,6 @@ MIT (https://github.com/Wikiki/bulma-steps/blob/master/LICENSE)
   text-align: left;
 }
 
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
 .b-tabs .tabs {
   margin-bottom: 0;
   flex-shrink: 0;
@@ -20041,7 +18881,7 @@ MIT (https://github.com/Wikiki/bulma-steps/blob/master/LICENSE)
 
 .b-tabs .tabs li a:focus {
   outline: none;
-  border-bottom-color: #7957d5;
+  border-bottom-color: #485fc7;
 }
 
 .b-tabs .tabs li:not(.is-active) a:focus {
@@ -20065,8 +18905,8 @@ MIT (https://github.com/Wikiki/bulma-steps/blob/master/LICENSE)
 }
 
 .b-tabs .tabs.is-toggle li a:focus {
-  background-color: #7957d5;
-  border-color: #7957d5;
+  background-color: #485fc7;
+  border-color: #485fc7;
 }
 
 .b-tabs .tabs.is-toggle li:not(.is-active) a:focus {
@@ -20246,39 +19086,39 @@ MIT (https://github.com/Wikiki/bulma-steps/blob/master/LICENSE)
 .tag .delete.is-primary,
 .tag.is-delete.is-primary,
 .tag.has-delete-icon.is-primary {
-  background: #7957d5;
+  background: #00d1b2;
 }
 
 .tag .delete.is-primary:hover,
 .tag.is-delete.is-primary:hover,
 .tag.has-delete-icon.is-primary:hover {
-  background-color: #5a32c7;
+  background-color: #009e86;
   text-decoration: none;
 }
 
 .tag .delete.is-link,
 .tag.is-delete.is-link,
 .tag.has-delete-icon.is-link {
-  background: #7957d5;
+  background: #485fc7;
 }
 
 .tag .delete.is-link:hover,
 .tag.is-delete.is-link:hover,
 .tag.has-delete-icon.is-link:hover {
-  background-color: #5a32c7;
+  background-color: #3449a8;
   text-decoration: none;
 }
 
 .tag .delete.is-info,
 .tag.is-delete.is-info,
 .tag.has-delete-icon.is-info {
-  background: #167df0;
+  background: #3e8ed0;
 }
 
 .tag .delete.is-info:hover,
 .tag.is-delete.is-info:hover,
 .tag.has-delete-icon.is-info:hover {
-  background-color: #0d64c6;
+  background-color: #2b74b1;
   text-decoration: none;
 }
 
@@ -20329,12 +19169,6 @@ MIT (https://github.com/Wikiki/bulma-steps/blob/master/LICENSE)
   margin-right: 0px;
   margin-left: 0px;
 }
-
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
 
 .taginput .taginput-container {
   display: flex;
@@ -20442,7 +19276,7 @@ MIT (https://github.com/Wikiki/bulma-steps/blob/master/LICENSE)
 .timepicker .dropdown-trigger .input[readonly].is-focused,
 .timepicker .dropdown-trigger .input[readonly]:active,
 .timepicker .dropdown-trigger .input[readonly].is-active {
-  box-shadow: 0 0 0 0.125em rgba(121, 87, 213, 0.25);
+  box-shadow: 0 0 0 0.125em rgba(72, 95, 199, 0.25);
 }
 
 .timepicker .dropdown.is-disabled {
@@ -20505,12 +19339,6 @@ MIT (https://github.com/Wikiki/bulma-steps/blob/master/LICENSE)
   font-size: 1.5rem;
 }
 
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
-
 .b-tooltip {
   position: relative;
   display: inline-flex;
@@ -20530,7 +19358,7 @@ MIT (https://github.com/Wikiki/bulma-steps/blob/master/LICENSE)
   bottom: auto;
   left: 50%;
   transform: translateX(-50%);
-  border-top: 5px solid #7957d5;
+  border-top: 5px solid #00d1b2;
   border-right: 5px solid transparent;
   border-left: 5px solid transparent;
 }
@@ -20552,27 +19380,27 @@ MIT (https://github.com/Wikiki/bulma-steps/blob/master/LICENSE)
 }
 
 .b-tooltip.is-top.is-primary .tooltip-content::before {
-  border-top-color: #7957d5;
+  border-top-color: #00d1b2;
 }
 
 .b-tooltip.is-top.is-primary.is-light .tooltip-content::before {
-  border-top-color: #f2effb;
+  border-top-color: #ebfffc;
 }
 
 .b-tooltip.is-top.is-link .tooltip-content::before {
-  border-top-color: #7957d5;
+  border-top-color: #485fc7;
 }
 
 .b-tooltip.is-top.is-link.is-light .tooltip-content::before {
-  border-top-color: #f2effb;
+  border-top-color: #eff1fa;
 }
 
 .b-tooltip.is-top.is-info .tooltip-content::before {
-  border-top-color: #167df0;
+  border-top-color: #3e8ed0;
 }
 
 .b-tooltip.is-top.is-info.is-light .tooltip-content::before {
-  border-top-color: #ecf4fe;
+  border-top-color: #eff5fb;
 }
 
 .b-tooltip.is-top.is-success .tooltip-content::before {
@@ -20614,7 +19442,7 @@ MIT (https://github.com/Wikiki/bulma-steps/blob/master/LICENSE)
   left: auto;
   transform: translateY(-50%);
   border-top: 5px solid transparent;
-  border-right: 5px solid #7957d5;
+  border-right: 5px solid #00d1b2;
   border-bottom: 5px solid transparent;
 }
 
@@ -20635,27 +19463,27 @@ MIT (https://github.com/Wikiki/bulma-steps/blob/master/LICENSE)
 }
 
 .b-tooltip.is-right.is-primary .tooltip-content::before {
-  border-right-color: #7957d5;
+  border-right-color: #00d1b2;
 }
 
 .b-tooltip.is-right.is-primary.is-light .tooltip-content::before {
-  border-right-color: #f2effb;
+  border-right-color: #ebfffc;
 }
 
 .b-tooltip.is-right.is-link .tooltip-content::before {
-  border-right-color: #7957d5;
+  border-right-color: #485fc7;
 }
 
 .b-tooltip.is-right.is-link.is-light .tooltip-content::before {
-  border-right-color: #f2effb;
+  border-right-color: #eff1fa;
 }
 
 .b-tooltip.is-right.is-info .tooltip-content::before {
-  border-right-color: #167df0;
+  border-right-color: #3e8ed0;
 }
 
 .b-tooltip.is-right.is-info.is-light .tooltip-content::before {
-  border-right-color: #ecf4fe;
+  border-right-color: #eff5fb;
 }
 
 .b-tooltip.is-right.is-success .tooltip-content::before {
@@ -20697,7 +19525,7 @@ MIT (https://github.com/Wikiki/bulma-steps/blob/master/LICENSE)
   left: 50%;
   transform: translateX(-50%);
   border-right: 5px solid transparent;
-  border-bottom: 5px solid #7957d5;
+  border-bottom: 5px solid #00d1b2;
   border-left: 5px solid transparent;
 }
 
@@ -20718,27 +19546,27 @@ MIT (https://github.com/Wikiki/bulma-steps/blob/master/LICENSE)
 }
 
 .b-tooltip.is-bottom.is-primary .tooltip-content::before {
-  border-bottom-color: #7957d5;
+  border-bottom-color: #00d1b2;
 }
 
 .b-tooltip.is-bottom.is-primary.is-light .tooltip-content::before {
-  border-bottom-color: #f2effb;
+  border-bottom-color: #ebfffc;
 }
 
 .b-tooltip.is-bottom.is-link .tooltip-content::before {
-  border-bottom-color: #7957d5;
+  border-bottom-color: #485fc7;
 }
 
 .b-tooltip.is-bottom.is-link.is-light .tooltip-content::before {
-  border-bottom-color: #f2effb;
+  border-bottom-color: #eff1fa;
 }
 
 .b-tooltip.is-bottom.is-info .tooltip-content::before {
-  border-bottom-color: #167df0;
+  border-bottom-color: #3e8ed0;
 }
 
 .b-tooltip.is-bottom.is-info.is-light .tooltip-content::before {
-  border-bottom-color: #ecf4fe;
+  border-bottom-color: #eff5fb;
 }
 
 .b-tooltip.is-bottom.is-success .tooltip-content::before {
@@ -20781,7 +19609,7 @@ MIT (https://github.com/Wikiki/bulma-steps/blob/master/LICENSE)
   transform: translateY(-50%);
   border-top: 5px solid transparent;
   border-bottom: 5px solid transparent;
-  border-left: 5px solid #7957d5;
+  border-left: 5px solid #00d1b2;
 }
 
 .b-tooltip.is-left.is-white .tooltip-content::before {
@@ -20801,27 +19629,27 @@ MIT (https://github.com/Wikiki/bulma-steps/blob/master/LICENSE)
 }
 
 .b-tooltip.is-left.is-primary .tooltip-content::before {
-  border-left-color: #7957d5;
+  border-left-color: #00d1b2;
 }
 
 .b-tooltip.is-left.is-primary.is-light .tooltip-content::before {
-  border-left-color: #f2effb;
+  border-left-color: #ebfffc;
 }
 
 .b-tooltip.is-left.is-link .tooltip-content::before {
-  border-left-color: #7957d5;
+  border-left-color: #485fc7;
 }
 
 .b-tooltip.is-left.is-link.is-light .tooltip-content::before {
-  border-left-color: #f2effb;
+  border-left-color: #eff1fa;
 }
 
 .b-tooltip.is-left.is-info .tooltip-content::before {
-  border-left-color: #167df0;
+  border-left-color: #3e8ed0;
 }
 
 .b-tooltip.is-left.is-info.is-light .tooltip-content::before {
-  border-left-color: #ecf4fe;
+  border-left-color: #eff5fb;
 }
 
 .b-tooltip.is-left.is-success .tooltip-content::before {
@@ -20892,33 +19720,33 @@ MIT (https://github.com/Wikiki/bulma-steps/blob/master/LICENSE)
 }
 
 .b-tooltip.is-primary .tooltip-content {
-  background: #7957d5;
+  background: #00d1b2;
   color: #fff;
 }
 
 .b-tooltip.is-primary.is-light .tooltip-content {
-  background: #f2effb;
-  color: #552fbc;
+  background: #ebfffc;
+  color: #00947e;
 }
 
 .b-tooltip.is-link .tooltip-content {
-  background: #7957d5;
+  background: #485fc7;
   color: #fff;
 }
 
 .b-tooltip.is-link.is-light .tooltip-content {
-  background: #f2effb;
-  color: #552fbc;
+  background: #eff1fa;
+  color: #3850b7;
 }
 
 .b-tooltip.is-info .tooltip-content {
-  background: #167df0;
+  background: #3e8ed0;
   color: #fff;
 }
 
 .b-tooltip.is-info.is-light .tooltip-content {
-  background: #ecf4fe;
-  color: #0d68ce;
+  background: #eff5fb;
+  color: #296fa8;
 }
 
 .b-tooltip.is-success .tooltip-content {
@@ -21064,20 +19892,20 @@ MIT (https://github.com/Wikiki/bulma-steps/blob/master/LICENSE)
 
 .upload .upload-draggable:hover.is-primary,
 .upload .upload-draggable.is-hovered.is-primary {
-  border-color: #7957d5;
-  background: rgba(121, 87, 213, 0.05);
+  border-color: #00d1b2;
+  background: rgba(0, 209, 178, 0.05);
 }
 
 .upload .upload-draggable:hover.is-link,
 .upload .upload-draggable.is-hovered.is-link {
-  border-color: #7957d5;
-  background: rgba(121, 87, 213, 0.05);
+  border-color: #485fc7;
+  background: rgba(72, 95, 199, 0.05);
 }
 
 .upload .upload-draggable:hover.is-info,
 .upload .upload-draggable.is-hovered.is-info {
-  border-color: #167df0;
-  background: rgba(22, 125, 240, 0.05);
+  border-color: #3e8ed0;
+  background: rgba(62, 142, 208, 0.05);
 }
 
 .upload .upload-draggable:hover.is-success,

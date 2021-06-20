@@ -1,56 +1,4 @@
-/*
-|--------------------------------------------------------------------------
-| BULMA
-|--------------------------------------------------------------------------
-*/
 //-------[ _initial-variables ]
-// Colors
-
-$black: hsl(0, 0%, 4%) !default;
-$black-bis: hsl(0, 0%, 7%) !default;
-$black-ter: hsl(0, 0%, 14%) !default;
-
-$grey-darker: hsl(0, 0%, 21%) !default;
-$grey-dark: hsl(0, 0%, 29%) !default;
-$grey: hsl(0, 0%, 48%) !default;
-$grey-light: hsl(0, 0%, 71%) !default;
-$grey-lighter: hsl(0, 0%, 86%) !default;
-$grey-lightest: hsl(0, 0%, 93%) !default;
-
-$white-ter: hsl(0, 0%, 96%) !default;
-$white-bis: hsl(0, 0%, 98%) !default;
-$white: hsl(0, 0%, 100%) !default;
-
-$orange: hsl(14, 100%, 53%) !default;
-$yellow: hsl(44, 100%, 77%) !default;
-$green: hsl(153, 53%, 53%) !default;
-$turquoise: hsl(171, 100%, 41%) !default;
-$cyan: hsl(207, 61%, 53%) !default;
-$blue: hsl(229, 53%, 53%) !default;
-$purple: hsl(271, 100%, 71%) !default;
-$red: hsl(348, 86%, 61%) !default;
-
-
-//-------[ buefy-0.9.8/utils/_variables ]
-$speed-slow: 150ms !default;
-$speed-slower: 250ms !default;
-
-$primary: #7957d5 !default;
-$primary-invert: findColorInvert(#7957d5) !default;
-$primary-light: findLightColor(#7957d5) !default;
-$primary-dark: findDarkColor(#7957d5) !default;
-
-$info: #167df0 !default;
-
-$link: $primary !default;
-$link-invert: $primary-invert !default;
-$link-visited: $grey !default;
-$link-focus-border: $primary !default;
-
-$label-weight: $weight-semibold !default;
-
-
-//-------[ initial-variables ]
 // Colors
 
 $black: hsl(0, 0%, 4%) !default;
@@ -247,6 +195,27 @@ $colors: mergeColorMaps(("white": ($white, $black), "black": ($black, $white), "
 $shades: mergeColorMaps(("black-bis": $black-bis, "black-ter": $black-ter, "grey-darker": $grey-darker, "grey-dark": $grey-dark, "grey": $grey, "grey-light": $grey-light, "grey-lighter": $grey-lighter, "white-ter": $white-ter, "white-bis": $white-bis), $custom-shades) !default;
 
 $sizes: $size-1 $size-2 $size-3 $size-4 $size-5 $size-6 $size-7 !default;
+
+
+//-------[ buefy-0.9.8/utils/_variables ]
+$speed-slow: 150ms !default;
+$speed-slower: 250ms !default;
+
+$primary: #7957d5 !default;
+$primary-invert: findColorInvert(#7957d5) !default;
+$primary-light: findLightColor(#7957d5) !default;
+$primary-dark: findDarkColor(#7957d5) !default;
+
+$info: #167df0 !default;
+
+$link: $primary !default;
+$link-invert: $primary-invert !default;
+$link-visited: $grey !default;
+$link-focus-border: $primary !default;
+
+$label-weight: $weight-semibold !default;
+
+
 
 
 //-------[ controls ]
