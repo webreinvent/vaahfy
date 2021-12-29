@@ -17,9 +17,7 @@ $steps-vertical-padding: 1em 0 !default;
 $steps-mobile-max-width: $tablet !default;
 $steps-colors: $colors !default;
 
-
 @import "../../customize/variables";
-
 
 @mixin steps-size($size) {
     .steps {

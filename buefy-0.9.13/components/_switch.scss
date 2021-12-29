@@ -4,9 +4,7 @@ $switch-padding: 0.2em !default;
 $switch-active-background-color: $primary !default;
 $switch-colors: $form-colors !default;
 
-
 @import "../../customize/variables";
-
 
 .switch {
     @extend %unselectable;

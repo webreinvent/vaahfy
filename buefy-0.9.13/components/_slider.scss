@@ -15,10 +15,7 @@ $slider-tick-background: $grey-light !default;
 $slider-mark-size: 0.75rem !default;
 $slider-colors: $colors !default;
 
-
-
 @import "../../customize/variables";
-
 
 @mixin slider-size($size) {
 	$track-height: divide($size, $slider-thumb-to-track-ratio);

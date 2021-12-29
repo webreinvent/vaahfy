@@ -10,9 +10,7 @@ $snackbar-border-radius: $radius !default;
 $snackbar-button-text-transform: uppercase !default;
 $snackbar-box-shadow: $notices-box-shadow !default;
 
-
 @import "../../customize/variables";
-
 
 .notices {
     position: fixed;
@@ -99,6 +97,7 @@ $snackbar-box-shadow: $notices-box-shadow !default;
         }
     }
     .notification {
+        pointer-events: auto;
         max-width: 600px;
     }
 

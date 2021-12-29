@@ -1,9 +1,7 @@
 $icon-svg-width: auto !default;
 $icon-svg-height: auto !default;
 
-
 @import "../../customize/variables";
-
 
 .icon {
     @include unselectable;

@@ -3,9 +3,7 @@ $rate-color-active: darken($warning, 5%) !default;
 $rate-spaced: 0.25rem !default;
 $rate-text-spaced: 0.35rem !default;
 
-
 @import "../../customize/variables";
-
 
 .rate {
     align-items: center;

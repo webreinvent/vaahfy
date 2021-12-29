@@ -15,8 +15,6 @@
     $padding-outer: 12px;
     $padding-inner: 5px;
 
-    @import "../../customize/variables";
-
     // mixins for supporting all $form-colors defined in Bulma/custom
     @mixin b-clockpicker-colors($name, $pair) {
         &.is-#{$name} {

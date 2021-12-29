@@ -5,9 +5,7 @@ $skeleton-border-radius: $radius !default;
 $skeleton-duration: 1.5s !default;
 $skeleton-margin-top: .5rem !default;
 
-
 @import "../../customize/variables";
-
 
 @mixin steps-size($size) {
     > .b-skeleton-item {

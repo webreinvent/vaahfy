@@ -860,10 +860,7 @@ $footer-color: false !default;
 $footer-padding: 3rem 1.5rem 6rem !default;
 
 
-//-------[ buefy-0.9.8/utils/variables-ext ]
-$input-arrow: $primary !default;
-
-//-------[ buefy-0.9.8/utils/_variables ]
+//-------[ buefy-0.9.13/utils/_variables]
 $speed-slow: 150ms !default;
 $speed-slower: 250ms !default;
 
@@ -881,97 +878,33 @@ $link-focus-border: $primary !default;
 
 $label-weight: $weight-semibold !default;
 
-//-------[ buefy-0.9.8/components/_autocomplete ]
-$dropdown-content-max-height: 200px !default;
+//-------[ buefy-0.9.13/utils/_variables-ext ]
+$input-arrow: $primary !default;
 
-//-------[ buefy-0.9.8/components/_carousel ]
-$carousel-min-height: 120px !default;
-
-$carousel-arrow-background: $scheme-main !default;
-$carousel-arrow-color: $primary !default;
-$carousel-arrow-icon-spaced: 1.5rem !default;
-$carousel-arrow-top: 50% !default;
-
-$carousel-indicator-background: rgba($scheme-invert, 0.50) !default;
-$carousel-indicator-border: $scheme-main !default;
-$carousel-indicator-color: $primary !default;
-$carousel-indicator-spaced: .5rem !default;
-
-$carousel-overlay-background: rgba($scheme-invert, 0.86) !default;
-$carousel-overlay-z: 40 !default;
+//-------[ buefy-0.9.13/components/_form ]
+$floating-in-height: 3.25em !default;
 
 
-//-------[ buefy-0.9.8/components/_checkbox ]
-$checkbox-active-background-color: $primary !default;
-$checkbox-background-color: transparent !default;
-$checkbox-border-color: $grey !default;
-$checkbox-border-radius: $radius !default;
-$checkbox-border-width: 2px !default;
-$checkbox-checkmark-color: $primary-invert !default;
-$checkbox-size: 1.25em !default;
-$checkbox-colors: $form-colors !default;
-
-//-------[ buefy-0.9.8/components/_clockpicker ]
-$transition-swing: cubic-bezier(.25,.8,.50,1);
-
-$time-font-size: 60px;
-$period-font-size: 16px;
-$number-font-size: 18px;
-
-$indicator-size: 40px;
-$hand-endpoint-size: 12px;
-
-$padding-outer: 12px;
-$padding-inner: 5px;
-
-
-//-------[ buefy-0.9.8/components/_datepicker ]
-$datepicker-background-color: $dropdown-content-background-color !default;
-$datepicker-radius: $dropdown-content-radius !default;
-$datepicker-shadow: $dropdown-content-shadow !default;
-$datepicker-header-color: $grey !default;
-$datepicker-today-border: solid 1px rgba($primary, 0.5) !default;
-$datepicker-item-color: $grey-dark !default;
-$datepicker-item-disabled-color: $grey-light !default;
-$datepicker-item-hover-color: $scheme-invert !default;
-$datepicker-item-hover-background-color: $background !default;
-$datepicker-item-selected-color: $primary-invert !default;
-$datepicker-item-selected-background-color: $primary !default;
-
-//-------[ buefy-0.9.8/components/_dropdown ]
+//-------[ buefy-0.9.13/components/_dropdown ]
 $dropdown-mobile-breakpoint: $desktop !default;
 $dropdown-background-color: rgba($scheme-invert, 0.86) !default;
 $dropdown-disabled-opacity: 0.5 !default;
 
-
-
-//-------[ buefy-0.9.8/components/_form ]
-$floating-in-height: 3.25em !default;
-
-
-
-//-------[ buefy-0.9.8/components/_icon ]
+//-------[ buefy-0.9.13/components/_icon ]
 $icon-svg-width: auto !default;
 $icon-svg-height: auto !default;
 
-
-
-//-------[ buefy-0.9.8/components/_image ]
+//-------[ buefy-0.9.13/components/_image ]
 $image-placeholder-blur-enabled: true !default;
 $image-placeholder-blur: 10px !default;
 
-
-//-------[ buefy-0.9.8/components/_loading ]
+//-------[ buefy-0.9.13/components/_loading ]
 $loading-background-legacy: #7f7f7f !default;
 $loading-background: rgba(255,255,255,0.5) !default;
 $loading-icon-size: 3em !default;
 $loading-full-page-icon-size: 5em !default;
 
-
-
-
-//-------[ buefy-0.9.8/components/_notices ]
-
+//-------[ buefy-0.9.13/components/_notices ]
 $notices-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12), 0 0 6px rgba(0, 0, 0, 0.04) !default;
 
 $toast-border-radius: 2em !default;
@@ -984,36 +917,18 @@ $snackbar-border-radius: $radius !default;
 $snackbar-button-text-transform: uppercase !default;
 $snackbar-box-shadow: $notices-box-shadow !default;
 
-
-
-//-------[ buefy-0.9.8/components/_radio ]
+//-------[ buefy-0.9.13/components/_radio ]
 $radio-active-background-color: $primary !default;
 $radio-size: 1.25em !default;
 $radio-colors: $form-colors !default;
 
-
-
-
-//-------[ buefy-0.9.8/components/_rate ]
+//-------[ buefy-0.9.13/components/_rate ]
 $rate-color: $grey-lighter !default;
 $rate-color-active: darken($warning, 5%) !default;
 $rate-spaced: 0.25rem !default;
 $rate-text-spaced: 0.35rem !default;
 
-
-
-//-------[ buefy-0.9.8/components/_skeleton ]
-
-$skeleton-color: $grey-lighter !default;
-$skeleton-background: linear-gradient(90deg, $skeleton-color 25%, rgba($skeleton-color, 0.5) 50%, $skeleton-color 75%) !default;
-$skeleton-border-radius: $radius !default;
-$skeleton-duration: 1.5s !default;
-$skeleton-margin-top: .5rem !default;
-
-
-
-
-//-------[ buefy-0.9.8/components/_sidebar ]
+//-------[ buefy-0.9.13/components/_sidebar ]
 $sidebar-background: $modal-background-background-color !default;
 $sidebar-box-shadow: 5px 0px 13px 3px rgba($black, 0.1) !default;
 $sidebar-width: 260px !default;
@@ -1021,10 +936,14 @@ $sidebar-mobile-width: 80px !default;
 $sidebar-mobile-breakpoint: $tablet !default;
 $sidebar-colors: $navbar-colors !default;
 
+//-------[ buefy-0.9.13/components/_skeleton ]
+$skeleton-color: $grey-lighter !default;
+$skeleton-background: linear-gradient(90deg, $skeleton-color 25%, rgba($skeleton-color, 0.5) 50%, $skeleton-color 75%) !default;
+$skeleton-border-radius: $radius !default;
+$skeleton-duration: 1.5s !default;
+$skeleton-margin-top: .5rem !default;
 
-
-
-//-------[ buefy-0.9.8/components/_slider ]
+//-------[ buefy-0.9.13/components/_slider ]
 $slider-radius: $radius !default;
 $slider-track-background: $grey-lighter !default;
 $slider-track-radius: $radius !default;
@@ -1042,10 +961,7 @@ $slider-tick-background: $grey-light !default;
 $slider-mark-size: 0.75rem !default;
 $slider-colors: $colors !default;
 
-
-
-
-//-------[ buefy-0.9.8/components/_steps ]
+//-------[ buefy-0.9.13/components/_steps ]
 $steps-items-focused-outline: none !default;
 $steps-details-background-color: $body-background-color !default;
 $steps-maker-default-color: $grey-light !default;
@@ -1059,19 +975,17 @@ $steps-mobile-max-width: $tablet !default;
 $steps-colors: $colors !default;
 
 
-//-------[ buefy-0.9.8/components/_switch ]
+//-------[ buefy-0.9.13/components/_switch ]
 $switch-width-number: 2.75 !default;
 $switch-width: $switch-width-number * 1em !default;
 $switch-padding: 0.2em !default;
 $switch-active-background-color: $primary !default;
 $switch-colors: $form-colors !default;
 
-
-//-------[ buefy-0.9.8/components/_table ]
+//-------[ buefy-0.9.13/components/_table ]
 $table-sticky-header-height: 300px !default;
 
-
-//-------[ buefy-0.9.8/components/_tabs ]
+//-------[ buefy-0.9.13/components/_tabs ]
 $tabs-focused-outline: none !default;
 $tabs-items-focused-outline: none !default;
 $tabs-link-focus-active-border-bottom-color: $tabs-link-active-border-bottom-color !default;
@@ -1086,12 +1000,10 @@ $tabs-toggle-link-focus-active-border-color: $tabs-toggle-link-active-border-col
 $tabs-toggle-link-focus-border-color: $tabs-toggle-link-hover-border-color !default;
 
 
-
-//-------[ buefy-0.9.8/components/_taginput ]
+//-------[ buefy-0.9.13/components/_taginput ]
 $taginput-height: calc(2em - 1px) !default;
 
-
-//-------[ buefy-0.9.8/components/_tooltip ]
+//-------[ buefy-0.9.13/components/_tooltip ]
 $tooltip-arrow-size: 5px !default;
 $tooltip-arrow-margin: 2px !default;
 $tooltip-multiline-sizes: (
@@ -1100,3 +1012,45 @@ $tooltip-multiline-sizes: (
         large: 300px
 ) !default;
 $tooltip-colors: $colors !default;
+
+//-------[ buefy-0.9.13/components/_autocomplete ]
+$dropdown-content-max-height: 200px !default;
+
+//-------[ buefy-0.9.13/components/_carousel ]
+$carousel-min-height: 120px !default;
+
+$carousel-arrow-background: $scheme-main !default;
+$carousel-arrow-color: $primary !default;
+$carousel-arrow-icon-spaced: 1.5rem !default;
+$carousel-arrow-top: 50% !default;
+
+$carousel-indicator-background: rgba($scheme-invert, 0.50) !default;
+$carousel-indicator-border: $scheme-main !default;
+$carousel-indicator-color: $primary !default;
+$carousel-indicator-spaced: .5rem !default;
+
+$carousel-overlay-background: rgba($scheme-invert, 0.86) !default;
+$carousel-overlay-z: 40 !default;
+
+//-------[ buefy-0.9.13/components/_checkbox ]
+$checkbox-active-background-color: $primary !default;
+$checkbox-background-color: transparent !default;
+$checkbox-border-color: $grey !default;
+$checkbox-border-radius: $radius !default;
+$checkbox-border-width: 2px !default;
+$checkbox-checkmark-color: $primary-invert !default;
+$checkbox-size: 1.25em !default;
+$checkbox-colors: $form-colors !default;
+
+//-------[ buefy-0.9.13/components/_datepicker ]
+$datepicker-background-color: $dropdown-content-background-color !default;
+$datepicker-radius: $dropdown-content-radius !default;
+$datepicker-shadow: $dropdown-content-shadow !default;
+$datepicker-header-color: $grey !default;
+$datepicker-today-border: solid 1px rgba($primary, 0.5) !default;
+$datepicker-item-color: $grey-dark !default;
+$datepicker-item-disabled-color: $grey-light !default;
+$datepicker-item-hover-color: $scheme-invert !default;
+$datepicker-item-hover-background-color: $background !default;
+$datepicker-item-selected-color: $primary-invert !default;
+$datepicker-item-selected-background-color: $primary !default;
