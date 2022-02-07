@@ -5,17 +5,6 @@ Wikiki (https://github.com/Wikiki) licensed under
 MIT (https://github.com/Wikiki/bulma-steps/blob/master/LICENSE)
 */
 
-$steps-items-focused-outline: none !default;
-$steps-details-background-color: $body-background-color !default;
-$steps-maker-default-color: $grey-light !default;
-$steps-marker-default-border: .2em solid #fff !default;
-$steps-default-color: $grey-lighter !default;
-$steps-previous-color: $primary !default;
-$steps-active-color: $primary !default;
-$steps-divider-height: .2em !default;
-$steps-vertical-padding: 1em 0 !default;
-$steps-mobile-max-width: $tablet !default;
-$steps-colors: $colors !default;
 
 @import "../../customize/variables";
 

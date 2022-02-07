@@ -1,19 +1,3 @@
-$slider-radius: $radius !default;
-$slider-track-background: $grey-lighter !default;
-$slider-track-radius: $radius !default;
-$slider-track-border: 0px solid $grey !default;
-$slider-track-shadow: 0px 0px 0px $grey !default;
-$slider-thumb-background: $scheme-main !default;
-$slider-thumb-radius: $radius !default;
-$slider-thumb-border: 1px solid $grey-light !default;
-$slider-thumb-shadow: none !default;
-$slider-thumb-to-track-ratio: 2 !default;
-$slider-tick-to-track-ratio: 0.5 !default;
-$slider-tick-width: 3px !default;
-$slider-tick-radius: $radius !default;
-$slider-tick-background: $grey-light !default;
-$slider-mark-size: 0.75rem !default;
-$slider-colors: $colors !default;
 
 @import "../../customize/variables";
 

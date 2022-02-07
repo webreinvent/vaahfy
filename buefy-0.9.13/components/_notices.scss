@@ -1,15 +1,3 @@
-$notices-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12), 0 0 6px rgba(0, 0, 0, 0.04) !default;
-
-$toast-border-radius: 2em !default;
-$toast-opacity: 0.92 !default;
-$toast-box-shadow: $notices-box-shadow !default;
-
-$snackbar-background-color: $dark !default;
-$snackbar-color: $dark-invert !default;
-$snackbar-border-radius: $radius !default;
-$snackbar-button-text-transform: uppercase !default;
-$snackbar-box-shadow: $notices-box-shadow !default;
-
 @import "../../customize/variables";
 
 .notices {
