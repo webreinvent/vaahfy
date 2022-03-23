@@ -3,17 +3,7 @@
     // Clockpicker variables defined here as exact numbers
     // must be known for use in the Vue component for calculations
     // to determine  number and hand positioning/size.
-    $transition-swing: cubic-bezier(.25,.8,.50,1);
-
-    $time-font-size: 60px;
-    $period-font-size: 16px;
-    $number-font-size: 18px;
-
-    $indicator-size: 40px;
-    $hand-endpoint-size: 12px;
-
-    $padding-outer: 12px;
-    $padding-inner: 5px;
+    @import "../../customize/variables";
 
     // mixins for supporting all $form-colors defined in Bulma/custom
     @mixin b-clockpicker-colors($name, $pair) {

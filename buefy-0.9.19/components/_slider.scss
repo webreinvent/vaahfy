@@ -1,5 +1,6 @@
-
 @import "../../customize/variables";
+
+
 
 @mixin slider-size($size) {
 	$track-height: divide($size, $slider-thumb-to-track-ratio);
