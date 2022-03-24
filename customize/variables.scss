@@ -1,9 +1,20 @@
-$primary: hsl(229, 77%, 61%) !default; // #4E6AE8
+$blue: hsl(217, 71%, 53%) !default; // $primary
 
-$success: hsl(101, 67%, 54%) !default; // #6ED83C
-$info: 	hsl(202, 89%, 60%) !default; // #3DB1F4
-$warning: hsl(51, 97%, 62%) !default; // #FCE041
-$danger: hsl(15, 100%, 58%) !default; // #FF5E28
+$green: hsl(141, 53%, 53%) !default; // $success
+$cyan: hsl(204, 71%, 53%) !default; // $info
+$yellow: hsl(48, 100%, 67%) !default; // $warning
+$red: hsl(348, 86%, 61%) !default; // $danger
+
+$family-sans-serif: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif !default;
+$body-font-size: 0.94rem;
+
+$size-1: 3rem !default;
+$size-2: 2.5rem !default;
+$size-3: 2rem !default;
+$size-4: 1.5rem !default;
+$size-5: 1.25rem !default;
+$size-6: $body-font-size; // default font size
+$size-7: 0.7rem !default;
 
 @import "./bulma";
 @import "./buefy";

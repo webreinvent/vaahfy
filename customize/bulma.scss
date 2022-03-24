@@ -1,6 +1,13 @@
 //-------[ _initial-variables ]
 // Colors
 
+// Semantic Colors
+$yellow: $yellow;
+$green: $green;
+$cyan: $cyan;
+$blue: $blue;
+$red: $red;
+
 $black: hsl(0, 0%, 4%) !default;
 $black-bis: hsl(0, 0%, 7%) !default;
 $black-ter: hsl(0, 0%, 14%) !default;
@@ -17,27 +24,18 @@ $white-bis: hsl(0, 0%, 98%) !default;
 $white: hsl(0, 0%, 100%) !default;
 
 $orange: hsl(14, 100%, 53%) !default;
-$yellow: hsl(44, 100%, 77%) !default;
-$green: hsl(153, 53%, 53%) !default;
+
 $turquoise: hsl(171, 100%, 41%) !default;
-$cyan: hsl(207, 61%, 53%) !default;
-$blue: hsl(229, 53%, 53%) !default;
+
+
 $purple: hsl(271, 100%, 71%) !default;
-$red: hsl(348, 86%, 61%) !default;
+
 
 // Typography
-
-$family-sans-serif: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif !default;
 $family-monospace: monospace !default;
 $render-mode: optimizeLegibility !default;
 
-$size-1: 3rem !default;
-$size-2: 2.5rem !default;
-$size-3: 2rem !default;
-$size-4: 1.5rem !default;
-$size-5: 1.25rem !default;
-$size-6: 1rem !default;
-$size-7: 0.75rem !default;
+
 
 $weight-light: 300 !default;
 $weight-normal: 400 !default;
@@ -84,12 +82,12 @@ $rtl: false !default;
 
 //-------[ derived-variables ]
 
-$primary: $primary !default;
+$primary: $blue !default;
 
-$info: $info !default;
-$success: $success !default;
-$warning: $warning !default;
-$danger: $danger !default;
+$success: $green !default;
+$info: $cyan !default;
+$warning: $yellow !default;
+$danger: $red !default;
 
 $light: $white-ter !default;
 $dark: $grey-darker !default;
@@ -225,7 +223,7 @@ $control-radius-small: $radius-small !default;
 
 $control-border-width: 1px !default;
 
-$control-height: 2.5em !default;
+$control-height: 2.3em !default;
 $control-line-height: 1.5 !default;
 
 $control-padding-vertical: calc(0.5em - #{$control-border-width}) !default;
@@ -236,7 +234,7 @@ $control-padding-horizontal: calc(0.75em - #{$control-border-width}) !default;
 
 
 $body-background-color: $scheme-main !default;
-$body-size: 16px !default;
+$body-size: $size-6 !default;
 $body-min-width: 300px !default;
 $body-rendering: optimizeLegibility !default;
 $body-family: $family-primary !default;
